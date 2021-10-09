@@ -1,5 +1,6 @@
-// Base styles and constants
+@import "./styles/constants";
 
+// Base styles and constants
 @import "./styles/base";
 
 // Component styles
@@ -7,3 +8,7 @@
 @import "./styles/navbar";
 @import "./styles/footer";
 @import "./styles/errorpage";
+
+// Page styles
+
+@import "./styles/projects";
