@@ -1,79 +1,81 @@
-import bossard from "../Sponsors/bossard.png";
-import ct from "../Sponsors/composites-tomorrow.png";
-import continental from "../Sponsors/continental.png";
-import coolermaster from "../Sponsors/cooler-master.png";
-import gigabyte from "../Sponsors/gigabyte.png";
-import indianbank from "../Sponsors/indian-bank.png";
-import mahindra from "../Sponsors/mahindra-rise.png";
-import microsoft from "../Sponsors/microsoft.png";
-import nationali from "../Sponsors/national-instruments.png";
-import nvidia from "../Sponsors/nvidia.png";
-import ouster from "../Sponsors/ouster.png";
-import pepperlfuchs from "../Sponsors/pepperl-fuchs-text.png";
-import sica from "../Sponsors/sica.png";
-import sick from "../Sponsors/sick.png";
-import simscale from "../Sponsors/simscale.png";
-import tmotor from "../Sponsors/t-motors.png";
-import vector from "../Sponsors/vector.png";
-import veekay from "../Sponsors/veekay-impex.png";
-import ximea from "../Sponsors/ximea.png";
+import bossard from '../Sponsors/bossard.png';
+import ct from '../Sponsors/composites-tomorrow.png';
+import continental from '../Sponsors/continental.png';
+import coolermaster from '../Sponsors/cooler-master.png';
+import gigabyte from '../Sponsors/gigabyte.png';
+import indianbank from '../Sponsors/indian-bank.png';
+import mahindra from '../Sponsors/mahindra-rise.png';
+import microsoft from '../Sponsors/microsoft.png';
+import nationali from '../Sponsors/national-instruments.png';
+import nvidia from '../Sponsors/nvidia.png';
+import ouster from '../Sponsors/ouster.png';
+import pepperlfuchs from '../Sponsors/pepperl-fuchs-text.png';
+import sica from '../Sponsors/sica.png';
+import sick from '../Sponsors/sick.png';
+import simscale from '../Sponsors/simscale.png';
+import tmotor from '../Sponsors/t-motors.png';
+import vector from '../Sponsors/vector.png';
+import veekay from '../Sponsors/veekay-impex.png';
+import ximea from '../Sponsors/ximea.png';
 
-export default [
+const sponsors = [
   {
-    image: continental
+    image: continental,
   },
   {
-    image: mahindra
+    image: mahindra,
   },
   {
-    image: sick
+    image: sick,
   },
   {
-    image: nvidia
+    image: nvidia,
   },
   {
-    image: nationali
+    image: nationali,
   },
   {
-    image: ximea
+    image: ximea,
   },
   {
-    image: microsoft
+    image: microsoft,
   },
   {
-    image: coolermaster
+    image: coolermaster,
   },
   {
-    image: vector
+    image: vector,
   },
   {
-    image: gigabyte
+    image: gigabyte,
   },
   {
-    image: pepperlfuchs
+    image: pepperlfuchs,
   },
   {
-    image: indianbank
+    image: indianbank,
   },
   {
-    image: sica
+    image: sica,
   },
   {
-    image: bossard
+    image: bossard,
   },
   {
-    image: veekay
+    image: veekay,
   },
   {
-    image: simscale
+    image: simscale,
   },
   {
-    image: ouster
+    image: ouster,
   },
   {
-    image: tmotor
+    image: tmotor,
   },
   {
-    image: ct
-  }
+    image: ct,
+  },
 ];
+
+export default sponsors;

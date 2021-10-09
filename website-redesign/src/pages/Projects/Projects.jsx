@@ -4,7 +4,7 @@ import projects from '../../assets/Data/projects';
 export default function Projects() {
   console.log(projects);
   return (
-    <div className="projects-section">
+    <div className="projects-section" id="projects">
       <div className="project-header">
         PROJECTS
         <div className="header-underline"></div>

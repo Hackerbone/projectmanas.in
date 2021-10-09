@@ -9,11 +9,21 @@ export default function Navbar() {
     <div className="navbar-container">
       <div className="manas-logo"></div>
       <div className={navOpen ? `navbar-links navbar-open` : `navbar-links`}>
-        <div className="navbar-link">About</div>
-        <div className="navbar-link">Team</div>
-        <div className="navbar-link">Sponsors</div>
-        <div className="navbar-link">Projects</div>
-        <div className="navbar-link">Contact us</div>
+        <a href="#about" className="navbar-link">
+          About
+        </a>
+        <a href="#projects" className="navbar-link">
+          Team
+        </a>
+        <a href="#sponsors" className="navbar-link">
+          Sponsors
+        </a>
+        <a href="#projects" className="navbar-link">
+          Projects
+        </a>
+        <a href="#contact" className="navbar-link">
+          Contact us
+        </a>
       </div>
       <div className={navOpen ? `hamburger hamburger-active` : `hamburger`}>
         <FontAwesomeIcon icon={navOpen ? faTimes : faBars} onClick={() => setNavOpen(!navOpen)} />
