@@ -2,26 +2,26 @@ import { useState } from 'react';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-
+import { Link } from 'react-router-dom';
 export default function Navbar() {
   const [navOpen, setNavOpen] = useState(false);
   return (
     <div className="navbar-container">
       <div className="manas-logo"></div>
       <div className={navOpen ? `navbar-links navbar-open` : `navbar-links`}>
-        <a href="#about" className="navbar-link">
+        <a href="/#about" className="navbar-link">
           About
         </a>
-        <a href="#projects" className="navbar-link">
+        <Link to="/team" className="navbar-link">
           Team
-        </a>
-        <a href="#sponsors" className="navbar-link">
+        </Link>
+        <a href="/#sponsors" className="navbar-link">
           Sponsors
         </a>
-        <a href="#projects" className="navbar-link">
+        <a href="/#projects" className="navbar-link">
           Projects
         </a>
-        <a href="#contact" className="navbar-link">
+        <a href="/#contact" className="navbar-link">
           Contact us
         </a>
       </div>
