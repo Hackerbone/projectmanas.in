@@ -1,14 +1,17 @@
 import "./App.scss";
+
+// Components
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
-import Errorpage from "./components/Errorpage/Errorpage";
-import { Router, Switch, Route } from "react-router-dom";
+
+// Pages
+import Errorpage from "./pages/Errorpage/Errorpage";
+import { Switch, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-
       <Switch>
         <Route exact path={"/*"}>
           <Errorpage />
