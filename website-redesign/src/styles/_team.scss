@@ -1,0 +1,65 @@
+.teampage-container {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  .teampage-header-container {
+    height: 40vh;
+    background: linear-gradient(
+      180deg,
+      rgba(218, 80, 44, 0.8) 0%,
+      rgba(216, 149, 56, 0.8) 100%
+    );
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    h1 {
+      font-size: 3.6rem;
+    }
+  }
+
+  .team {
+    background: #f9f9f9;
+    padding: 2rem;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    span {
+      font-size: 2.4rem;
+    }
+
+    .team-table {
+      padding: 2rem 0;
+      display: flex;
+      .member {
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        // width: 200px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 2rem;
+        border-radius: 8px;
+        img {
+          padding: 1rem 0;
+          width: 52px;
+          //   height: 52px;
+          border-radius: 50%;
+        }
+        .member-name {
+          padding: 0.4rem 0;
+
+          font-size: 1.2rem;
+        }
+        .member-designation {
+          //   padding: 1rem 0;
+          color: $primary-orange;
+        }
+      }
+    }
+  }
+}
