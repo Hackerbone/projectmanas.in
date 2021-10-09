@@ -1,7 +1,7 @@
-import walle from "./walle.png";
-import eve from "./eve.png";
-import solo from "./solo.png";
-import adam from "./adam.png";
+import walle from "../Projects/walle.png";
+import eve from "../Projects/eve.png";
+import solo from "../Projects/solo.png";
+import adam from "../Projects/adam.png";
 
 export default [
   {
