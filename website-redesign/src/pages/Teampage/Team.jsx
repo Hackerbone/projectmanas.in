@@ -13,6 +13,16 @@ export default function Team() {
         </span>
         <div className="team-table">
           <Member />
+          <Member />
+          <Member />
+          <Member />
+          <Member />
+          <Member />
+          <Member />
+          <Member />
+
+          <Member />
+          <Member />
         </div>
       </div>
     </div>
