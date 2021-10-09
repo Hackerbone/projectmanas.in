@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.sponsors {
+  margin-top: 50px;
+  background-color: #071013;
+  padding: 30px;
+}
+
+.sponsors h2 {
+  color: #ffffff;
+  padding: 30px;
+  font-weight: 200;
+  font-size: 40px;
+  text-align: center;
+}
+
+.grid-container {
+  margin-top: 50px;
+  margin: auto;
+  max-width: 900px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: 200px 200px 200px 200px;
+  grid-gap: 1px;
+  background-color: #4f4949;
+  border: 1px solid #4f4949;
+}
+
+.grid-container div {
+  background-color: #071013;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+  border-color: #071013;
+}
+
+.sponsor-logo {
+  height: auto;
+  width: 200px;
+  align-items: center;
+}
