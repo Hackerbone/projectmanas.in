@@ -5,10 +5,12 @@
   color: #fff;
   height: auto;
   padding: 0.2rem 1rem;
+  height: 75px;
 
   @media only screen and (max-width: 768px) {
-    flex-direction: column;
+    // flex-direction: column;
     padding: 0.4rem 1rem;
+    justify-content: space-between;
   }
 
   .manas-logo {
@@ -21,16 +23,24 @@
     @media only screen and (max-width: 768px) {
       display: flex;
       justify-content: center;
+      width: 64px;
+      margin: 0 0.5rem;
     }
   }
 
   .navbar-links {
     display: flex;
     margin-left: auto;
+    transition: 0.5s ease-in-out all;
+    width: 100%;
 
     @media only screen and (max-width: 768px) {
       display: block;
-      margin-left: 0;
+      width: 100%;
+      transform: translate(-300%, 0);
+      position: absolute;
+      top: 0;
+      left: 0;
     }
 
     .navbar-link {
@@ -46,5 +56,54 @@
         justify-content: flex-start;
       }
     }
+  }
+
+  .navbar-open {
+    transition: 0.5s ease-in-out all;
+    // display: none;
+
+    @media only screen and (max-width: 768px) {
+      display: block;
+      transform: translate(0, 75px);
+      background-color: #000;
+      width: 100%;
+
+      .navbar-link {
+        width: 100%;
+        transition: 0.2s ease-in-out all;
+
+        &:hover {
+          background-color: rgba($color: #fff, $alpha: 0.1);
+        }
+
+      }
+    }
+  }
+
+
+  .hamburger {
+    display: flex;
+    padding: 0 1.4rem;
+    align-items: center;
+    font-size: 2.4rem;
+    display: none;
+    transition: 0.4s ease-in-out all;
+    transform: rotate(0);
+    opacity: 0.8;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    @media only screen and (max-width: 768px) {
+      display: block;
+    }
+
+  }
+
+  .hamburger-active {
+    opacity: 1;
+    transform: rotate(180deg);
+
   }
 }

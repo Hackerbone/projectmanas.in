@@ -1,6 +1,6 @@
-import React from "react";
-import SingleProject from "../../components/Projects/SingleProject";
-import projects from "../../assets/Data/projects";
+import React from 'react';
+// import SingleProject from "../../components/Projects/SingleProject";
+import projects from '../../assets/Data/projects';
 export default function Projects() {
   console.log(projects);
   return (

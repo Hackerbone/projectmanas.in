@@ -1,0 +1,12 @@
+.landing-manas {
+    background-color: $primary-black;
+    height: calc(100vh - 75px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}
