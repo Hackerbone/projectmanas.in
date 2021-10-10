@@ -20,7 +20,6 @@ export default function Team() {
           <Member />
           <Member />
           <Member />
-
           <Member />
           <Member />
         </div>

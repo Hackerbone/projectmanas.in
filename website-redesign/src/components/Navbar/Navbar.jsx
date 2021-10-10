@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useState } from "react";
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faBars, faTimes } from '@fortawesome/free-solid-svg-icons';
-import { Link } from 'react-router-dom';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 export default function Navbar() {
   const [navOpen, setNavOpen] = useState(false);
   return (
@@ -25,8 +25,13 @@ export default function Navbar() {
           Contact us
         </a>
       </div>
-      <div className={navOpen ? `hamburger hamburger-active` : `hamburger`}>
-        <FontAwesomeIcon icon={navOpen ? faTimes : faBars} onClick={() => setNavOpen(!navOpen)} />
+      <div className={`hamburger`} onClick={() => setNavOpen(!navOpen)}>
+        <div className={navOpen ? `open` : ``} id="nav-icon">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        {/* <FontAwesomeIcon icon={navOpen ? faTimes : faBars} onClick={() => setNavOpen(!navOpen)} /> */}
       </div>
     </div>
   );

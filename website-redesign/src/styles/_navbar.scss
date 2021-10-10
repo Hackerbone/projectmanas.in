@@ -56,7 +56,6 @@
       transition: 0.2s ease-in-out all;
 
       &:hover {
-
         color: $primary-orange;
       }
 
@@ -83,20 +82,16 @@
         &:hover {
           background-color: rgba($color: #fff, $alpha: 0.1);
         }
-
       }
     }
   }
 
-
   .hamburger {
     display: flex;
     padding: 0 1.4rem;
-    align-items: center;
     font-size: 2.4rem;
     display: none;
     transition: 0.4s ease-in-out all;
-    transform: rotate(0);
     opacity: 0.8;
 
     &:hover {
@@ -106,12 +101,88 @@
     @media only screen and (max-width: 768px) {
       display: block;
     }
-
   }
 
-  .hamburger-active {
-    opacity: 1;
-    transform: rotate(180deg);
+  /* Icon 4 */
 
+  #nav-icon {
+    margin-top: 8px;
+    width: 45px;
+    height: 60px;
+    position: relative;
+    -webkit-transform: rotate(0deg) scale(0.8);
+    -moz-transform: rotate(0deg) scale(0.8);
+    -o-transform: rotate(0deg) scale(0.8);
+    transform: rotate(0deg) scale(0.8);
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  #nav-icon span {
+    display: block;
+    position: absolute;
+    height: 6px;
+    width: 100%;
+    background: #fff;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+  }
+
+  #nav-icon span:nth-child(1) {
+    top: 0px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+  }
+
+  #nav-icon span:nth-child(2) {
+    top: 18px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+  }
+
+  #nav-icon span:nth-child(3) {
+    top: 36px;
+    -webkit-transform-origin: left center;
+    -moz-transform-origin: left center;
+    -o-transform-origin: left center;
+    transform-origin: left center;
+  }
+
+  #nav-icon.open span:nth-child(1) {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 0px;
+    left: 8px;
+  }
+
+  #nav-icon.open span:nth-child(2) {
+    width: 0%;
+    opacity: 0;
+  }
+
+  #nav-icon.open span:nth-child(3) {
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    top: 34px;
+    left: 8px;
   }
 }
