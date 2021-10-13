@@ -5,7 +5,6 @@
   align-items: center;
   flex-direction: column;
   padding-bottom: 4rem;
-
   .project-header {
     color: $primary-orange;
     font-size: 4rem;
@@ -23,27 +22,28 @@
   .projects-container {
     width: 100%;
     display: flex;
-
+    background-attachment: fixed;
     .left-section {
       flex: 1;
       display: flex;
       flex-direction: column;
       align-items: center;
-
-      img {
-        height: auto;
+      .react-parallax {
+        margin: 1rem 0;
+      }
+      .react-parallax-bgimage {
         padding: 1rem;
-        max-width: 576px;
 
-        @media only screen and (max-width: 992px) {
-          max-width: 100%;
-        }
+        // @media only screen and (max-width: 992px) {
+        //   max-width: 100%;
+        // }
       }
     }
 
     .right-section {
       display: flex;
       flex-direction: column;
+      justify-content: space-evenly;
       flex: 1;
 
       // @media only screen and (max-width: 576px) {
@@ -53,10 +53,18 @@
         flex: 1;
         padding: 2rem;
         padding-top: 0;
-
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
         h1 {
           font-size: 3.5rem;
-
+          font-family: $montserrat;
+          font-weight: 500;
+          @media only screen and (max-width: 992px) {
+            & {
+              font-size: 2.8rem;
+            }
+          }
           @media only screen and (max-width: 768px) {
             & {
               font-size: 2.4rem;
@@ -65,9 +73,11 @@
         }
 
         p {
-          font-size: 1.4rem;
-
-          @media only screen and (max-width: 768px) {
+          font-size: 1.2rem;
+          font-family: $montserrat;
+          line-height: 2.5rem;
+          margin-top: 1rem;
+          @media only screen and (max-width: 992px) {
             & {
               font-size: 1rem;
             }
