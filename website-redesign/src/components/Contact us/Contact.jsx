@@ -82,7 +82,11 @@ export default function Contact() {
                   ) : null}
                   <label className={values.message && "filled"}>MESSAGE</label>
                 </div>
-                <button className="btn btn-dark mt-3" type="submit">
+                <button
+                  style={{ cursor: "pointer" }}
+                  className="btn btn-dark mt-3"
+                  type="submit"
+                >
                   Submit
                 </button>
               </Form>

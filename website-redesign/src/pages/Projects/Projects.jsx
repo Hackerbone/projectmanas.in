@@ -1,5 +1,5 @@
 import React from "react";
-import { Parallax } from "react-parallax";
+import { Parallax } from "react-scroll-parallax";
 // import SingleProject from "../../components/Projects/SingleProject";
 import projects from "../../assets/Data/projects";
 export default function Projects() {
