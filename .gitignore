@@ -2,5 +2,5 @@
 _site/
 .jekyll-metadata
 .jekyll-cache
-website-redesign/package-lock.json
-website-redesign/yarn.lock
+/website-redesign/package-lock.json
+/website-redesign/yarn.lock
