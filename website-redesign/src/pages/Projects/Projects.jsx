@@ -13,31 +13,15 @@ export default function Projects() {
       <div className="projects-container">
         <div className="left-section">
           {projects.map((item, idx) => (
-            <Parallax strength={-300} bgImage={item.image} key={idx}>
-              <div
-                style={{
-                  maxHeight: "70vh",
-                  minHeight: "50vh",
-                  height: "100%",
-                  marginTop: 30,
-                }}
-                className="parallax-div"
-              />
+            <Parallax key={idx} y={[30, -30]} tagOuter="figure">
+              <img src={item.image} alt="projects" className="project-img" />
             </Parallax>
           ))}
         </div>
         <div className="right-section">
           {projects.map((item, idx) => (
-            <Parallax strength={200} key={idx}>
-              <div
-                className="project-content"
-                key={idx}
-                style={{
-                  maxHeight: "70vh",
-                  minHeight: "50vh",
-                  paddingRight: "5rem",
-                }}
-              >
+            <Parallax strength={200} key={idx} y={[-10, 40]} tagOuter="figure">
+              <div className="project-content right-content" key={idx}>
                 <h1>{item.header}</h1>
                 <p>{item.description}</p>
               </div>

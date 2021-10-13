@@ -28,34 +28,24 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      .react-parallax {
-        margin: 1rem 0;
-      }
-      .react-parallax-bgimage {
-        padding: 1rem;
-
-        // @media only screen and (max-width: 992px) {
-        //   max-width: 100%;
-        // }
-      }
     }
 
     .right-section {
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: space-between;
       flex: 1;
 
       @media only screen and (max-width: 768px) {
         display: none;
       }
+
       .project-content {
         flex: 1;
         padding: 2rem;
-        padding-top: 0;
+        // padding-top: 0;
         display: flex;
         flex-direction: column;
-        // justify-content: center;
         h1 {
           font-size: 3.5rem;
           font-family: $montserrat;

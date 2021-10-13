@@ -44,12 +44,15 @@
     display: flex;
     align-items: center;
     opacity: 0.7;
+    transition: 0.2s ease-in-out all;
   }
 }
 
 .grid-item:nth-child(3) .grid-img,
 .grid-item:nth-child(4) .grid-img,
 .grid-item:nth-child(8) .grid-img {
+  transform: scale(0.8);
+
   @media only screen and (max-width: 768px) {
     margin: 0;
     width: 50px;

@@ -7,7 +7,7 @@ export default function Navbar() {
   const [navOpen, setNavOpen] = useState(false);
   return (
     <div className="navbar-container">
-      <div className="manas-logo"></div>
+      <Link to="/" className="manas-logo"></Link>
       <div className={navOpen ? `navbar-links navbar-open` : `navbar-links`}>
         <a href="/#about" className="navbar-link">
           About
