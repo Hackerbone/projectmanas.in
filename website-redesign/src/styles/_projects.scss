@@ -46,9 +46,9 @@
       justify-content: space-evenly;
       flex: 1;
 
-      // @media only screen and (max-width: 576px) {
-      //   flex: 0;
-      // }
+      @media only screen and (max-width: 768px) {
+        display: none;
+      }
       .project-content {
         flex: 1;
         padding: 2rem;
@@ -132,6 +132,15 @@
           }
         }
       }
+    }
+  }
+}
+
+.parallax-div {
+  width: 45vw;
+  @media only screen and (max-width: 768px) {
+    & {
+      width: 80vw;
     }
   }
 }

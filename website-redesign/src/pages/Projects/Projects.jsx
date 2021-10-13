@@ -19,9 +19,9 @@ export default function Projects() {
                   maxHeight: "70vh",
                   minHeight: "50vh",
                   height: "100%",
-                  width: "40vw",
                   marginTop: 30,
                 }}
+                className="parallax-div"
               />
             </Parallax>
           ))}
