@@ -16,8 +16,8 @@
   margin: auto;
   max-width: 900px;
   display: grid;
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: 200px 200px 200px 200px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 1px;
   background-color: #4f4949;
   border: 1px solid #4f4949;
@@ -38,7 +38,8 @@
   transition: all 0.3s ease;
 
   .grid-img {
-    width: 150px;
+    width: 70%;
+    max-width: 100%;
     height: auto;
     display: flex;
     align-items: center;
@@ -69,4 +70,5 @@
 
 .grid-item p {
   color: #ffffff;
+  font-size: 2rem;
 }
