@@ -12,7 +12,7 @@ const validationSchema = yup.object().shape({
 
 export default function Contact() {
   return (
-    <div className="contact-section">
+    <div className="contact-section" id="contact">
       <div className="form">
         <div className="contact-header">
           CONTACT <b>US</b>

@@ -20,7 +20,7 @@ export default function Projects() {
         </div>
         <div className="right-section">
           {projects.map((item, idx) => (
-            <Parallax strength={200} key={idx} y={[1, 40]} tagOuter="figure">
+            <Parallax strength={200} key={idx} y={[0, 40]} tagOuter="figure">
               <div className="project-content right-content" key={idx}>
                 <h1>{item.header}</h1>
                 <p>{item.description}</p>
