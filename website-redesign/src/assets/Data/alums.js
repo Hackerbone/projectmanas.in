@@ -50,7 +50,7 @@ const alums = [
     "image": "/Alumni/32.jpeg",
     "facebook": null,
     "mail": null,
-    "linkedin": null,
+    "linkedin": "https://www.linkedin.com/in/pranjal-sinha-457114138/",
     "github": null,
     "year": 2018
   },

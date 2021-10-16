@@ -54,11 +54,6 @@ export default function Team() {
         <div className="team-table">
           {members.map((item, idx) => {
             let imgLink = 'url("' + item.image + '")';
-            let nick = item.nickname;
-            let fb = item.facebook;
-            let email = item.mail;
-            let linkedin = item.linkedin;
-            let git = item.github;
 
             return (
               <div className="member" key={idx}>
@@ -71,7 +66,7 @@ export default function Team() {
                   }}
                 ></div>
                 <div className="member-name">
-                  {showText[idx] ? nick : item.name}
+                  {showText[idx] ? item.nickname : item.name}
                 </div>
                 <div className="member-designation">{item.designation}</div>
                 <div className="social-link">
@@ -131,56 +126,65 @@ export default function Team() {
             values={VALUES}
           />
         </div>
-        <div className="team-table">
-          {alums.map((data) => {
-            let imgLink = 'url("' + data.image + '")';
-            if (data.year == year) {
-              return (
-                <div className="content">
-                  <div className="alumni-member">
-                    <div
-                      className="profile-image"
-                      style={{ backgroundImage: imgLink }}
-                    ></div>
-                    <div className="alumni-name">{data.name}</div>
-                    <div className="alumni-designation">{data.designation}</div>
-                    <div className="social-link">
-                      <a
-                        href={data.facebook}
-                        target="_blank"
-                        id="link"
-                        className={`icon-${data.facebook ? "shown" : "hidden"}`}
-                      >
-                        <FontAwesomeIcon icon={faFacebookF} />
-                      </a>
 
-                      <a
-                        href={data.mail}
-                        target="_blank"
-                        className={`icon-${data.mail ? "shown" : "hidden"}`}
-                      >
-                        <FontAwesomeIcon icon={faEnvelope} />
-                      </a>
-                      <a
-                        href={data.linkedin}
-                        target="_blank"
-                        className={`icon-${data.linkedin ? "shown" : "hidden"}`}
-                      >
-                        <FontAwesomeIcon icon={faLinkedinIn} />
-                      </a>
-                      <a
-                        href={data.github}
-                        target="_blank"
-                        className={`icon-${data.github ? "shown" : "hidden"}`}
-                      >
-                        <FontAwesomeIcon icon={faGithub} />
-                      </a>
+        <div className="alum-wrapper">
+          <div className="alum-table">
+            {alums.map((data) => {
+              let imgLink = 'url("' + data.image + '")';
+              if (data.year == year) {
+                return (
+                  <div className="content">
+                    <div className="alumni-member">
+                      <div
+                        className="profile-image"
+                        style={{ backgroundImage: imgLink }}
+                      ></div>
+                      <div className="alumni-name">{data.name}</div>
+                      <div className="alumni-designation">
+                        {data.designation}
+                      </div>
+                      <div className="social-link">
+                        <a
+                          href={data.facebook}
+                          target="_blank"
+                          id="link"
+                          className={`icon-${
+                            data.facebook ? "shown" : "hidden"
+                          }`}
+                        >
+                          <FontAwesomeIcon icon={faFacebookF} />
+                        </a>
+
+                        <a
+                          href={data.mail}
+                          target="_blank"
+                          className={`icon-${data.mail ? "shown" : "hidden"}`}
+                        >
+                          <FontAwesomeIcon icon={faEnvelope} />
+                        </a>
+                        <a
+                          href={data.linkedin}
+                          target="_blank"
+                          className={`icon-${
+                            data.linkedin ? "shown" : "hidden"
+                          }`}
+                        >
+                          <FontAwesomeIcon icon={faLinkedinIn} />
+                        </a>
+                        <a
+                          href={data.github}
+                          target="_blank"
+                          className={`icon-${data.github ? "shown" : "hidden"}`}
+                        >
+                          <FontAwesomeIcon icon={faGithub} />
+                        </a>
+                      </div>
                     </div>
                   </div>
-                </div>
-              );
-            }
-          })}
+                );
+              }
+            })}
+          </div>
         </div>
       </div>
     </div>

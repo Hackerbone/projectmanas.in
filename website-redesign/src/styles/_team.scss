@@ -122,49 +122,68 @@
   margin: auto !important;
 }
 
-.content {
+.alum-table {
   display: flex;
-  width: 100%;
-  flex-direction: column;
-  .alumni-member {
-    margin: 2rem;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    width: 15rem;
-    background-color: white;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    padding: 1.5rem;
-    transition: all 0.3s ease;
-    border-radius: 8px;
+  flex-wrap: wrap;
+  padding: 2rem;
+  justify-content: center;
+  .content {
+    .alumni-member {
+      margin: 2rem;
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+      width: 15rem;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 1.5rem;
+      transition: all 0.3s ease;
+      border-radius: 8px;
+      min-height: 17rem;
 
-    &:hover {
-      filter: drop-shadow(0px 8px 4px rgba(0, 0, 0, 0.25));
-    }
+      &:hover {
+        filter: drop-shadow(0px 8px 4px rgba(0, 0, 0, 0.25));
+      }
 
-    .alumni-name {
-      padding: 0;
-      font-size: 1.2rem;
-    }
-    .alumni-designation {
-      color: $primary-orange;
-      overflow-wrap: break-word;
-    }
+      .alumni-name {
+        padding: 0;
+        font-size: 1.2rem;
+        text-align: center;
+      }
+      .alumni-designation {
+        color: $primary-orange;
+        overflow-wrap: break-word;
+        text-align: center;
+      }
 
-    .profile-image {
-      width: 7rem;
-      height: 7rem;
-      border-radius: 100px;
-      background-position: 100% 0;
-      background-repeat: no-repeat;
-      background-size: 100% 200%;
+      .profile-image {
+        width: 7rem;
+        height: 7rem;
+        border-radius: 100px;
+        background-position: 100% 0;
+        background-repeat: no-repeat;
+        background-size: 100% 200%;
+      }
+      .icon-shown {
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #000000;
+        transition: all 0.3s ease;
+      }
+
+      .icon-hidden {
+        display: none;
+      }
+
+      .social-link a:nth-child(3):hover {
+        color: #0072b1;
+        transform: scale(1.2);
+      }
     }
   }
-}
-
-.team-table {
-  padding: 2rem;
-  flex-wrap: wrap;
-  display: flex;
 }
