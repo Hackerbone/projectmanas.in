@@ -1,9 +1,17 @@
-import React, { useState } from "react";
-import { Parallax } from "react-scroll-parallax";
+import React, { useState, useLayoutEffect } from "react";
+import { Parallax, useController } from "react-scroll-parallax";
 // import SingleProject from "../../components/Projects/SingleProject";
 import projects from "../../assets/Data/projects";
 export default function Projects() {
+  const { parallaxController } = useController();
   const [selected, setSelected] = useState(-1);
+
+  useLayoutEffect(() => {
+    const handler = () => parallaxController.update();
+    window.addEventListener("load", handler);
+    return () => window.removeEventListener("load", handler);
+  }, [parallaxController]);
+
   return (
     <div className="projects-section" id="projects">
       <div className="project-header">
