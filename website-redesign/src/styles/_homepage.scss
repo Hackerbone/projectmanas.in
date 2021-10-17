@@ -3,7 +3,7 @@
   height: calc(100vh - 75px);
   justify-content: center;
   align-items: center;
-  overflow-x: none;
+  overflow: hidden;
 
   @media only screen and (max-width: 768px) {
     flex-direction: column;
@@ -11,12 +11,17 @@
 
   .logo {
     margin: auto;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    height: 100%;
+
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+    }
     img {
       max-width: 100%;
       height: auto;
-      margin: auto;
-      padding: 0;
       @media only screen and (max-width: 768px) {
         padding: 0 3rem;
       }
@@ -24,12 +29,16 @@
   }
 
   .Tilt {
-    max-width: 100%;
-    scale: 0.8;
+    max-width: 90%;
     position: absolute;
-    left: 0;
-    top: 0;
-    transform: translateX(40px) scale(0.8);
+    top: 6rem;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    width: 100%;
+    margin: 0 auto;
+    left: 5%;
+    right: 5%;
+    transform: scale(0.8);
   }
 
   .ellipse69 {
@@ -81,6 +90,29 @@
     background-size: contain;
   }
 
+  .ellipse18 {
+    background-image: url("../assets/Landing-shapes/Ellipse\ 73.png");
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    scale: 1;
+    right: 10rem;
+    top: 20rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .ellipse19 {
+    background-image: url("../assets/Landing-shapes/Ellipse\ 73.png");
+    position: absolute;
+    width: 6rem;
+    height: 6rem;
+    scale: 1;
+    right: 15rem;
+    top: 30rem;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
   .polygon18 {
     background-image: url("../assets/Landing-shapes/Polygon\ 18.png");
     position: absolute;
