@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import members from "../../assets/Data/members";
 import alums from "../../assets/Data/alums";
-import Stepper from "react-stepper-horizontal";
+// import Stepper from "react-stepper-horizontal";
 import Horizontaltimeline from "react-horizontal-timeline";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -73,6 +73,7 @@ export default function Team() {
                   <a
                     href={item.facebook}
                     target="_blank"
+                    rel="noreferrer"
                     id="link"
                     className={`icon-${item.facebook ? "shown" : "hidden"}`}
                   >
@@ -82,6 +83,7 @@ export default function Team() {
                   <a
                     href={item.mail}
                     target="_blank"
+                    rel="noreferrer"
                     className={`icon-${item.mail ? "shown" : "hidden"}`}
                   >
                     <FontAwesomeIcon icon={faEnvelope} />
@@ -89,6 +91,7 @@ export default function Team() {
                   <a
                     href={item.linkedin}
                     target="_blank"
+                    rel="noreferrer"
                     className={`icon-${item.linkedin ? "shown" : "hidden"}`}
                   >
                     <FontAwesomeIcon icon={faLinkedinIn} />
@@ -96,6 +99,7 @@ export default function Team() {
                   <a
                     href={item.github}
                     target="_blank"
+                    rel="noreferrer"
                     className={`icon-${item.github ? "shown" : "hidden"}`}
                   >
                     <FontAwesomeIcon icon={faGithub} />
@@ -129,11 +133,11 @@ export default function Team() {
 
         <div className="alum-wrapper">
           <div className="alum-table">
-            {alums.map((data) => {
+            {alums.map((data, idx) => {
               let imgLink = 'url("' + data.image + '")';
-              if (data.year == year) {
+              if (data.year === year) {
                 return (
-                  <div className="content">
+                  <div className="content" key={idx}>
                     <div className="alumni-member">
                       <div
                         className="profile-image"
@@ -147,6 +151,7 @@ export default function Team() {
                         <a
                           href={data.facebook}
                           target="_blank"
+                          rel="noreferrer"
                           id="link"
                           className={`icon-${
                             data.facebook ? "shown" : "hidden"
@@ -158,6 +163,7 @@ export default function Team() {
                         <a
                           href={data.mail}
                           target="_blank"
+                          rel="noreferrer"
                           className={`icon-${data.mail ? "shown" : "hidden"}`}
                         >
                           <FontAwesomeIcon icon={faEnvelope} />
@@ -165,6 +171,7 @@ export default function Team() {
                         <a
                           href={data.linkedin}
                           target="_blank"
+                          rel="noreferrer"
                           className={`icon-${
                             data.linkedin ? "shown" : "hidden"
                           }`}
@@ -174,6 +181,7 @@ export default function Team() {
                         <a
                           href={data.github}
                           target="_blank"
+                          rel="noreferrer"
                           className={`icon-${data.github ? "shown" : "hidden"}`}
                         >
                           <FontAwesomeIcon icon={faGithub} />
@@ -182,7 +190,7 @@ export default function Team() {
                     </div>
                   </div>
                 );
-              }
+              } else return "";
             })}
           </div>
         </div>
