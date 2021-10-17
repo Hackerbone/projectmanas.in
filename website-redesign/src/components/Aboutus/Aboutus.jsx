@@ -7,9 +7,7 @@ export default function Aboutus() {
     <div className="Aboutus">
       <div class="container">
         <div class="img1"></div>
-
         <div class="img2"></div>
-
         <div class="img3"></div>
       </div>
 
