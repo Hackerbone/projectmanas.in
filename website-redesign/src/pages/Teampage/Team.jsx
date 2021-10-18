@@ -112,13 +112,16 @@ export default function Team() {
       </div>
 
       <div className="alumni">
-        <h1>Our Alumni</h1>
+        <h1>
+          Our <span>Alumni</span>
+        </h1>
         <div
           className="timeline"
           style={{ width: "60%", height: "100px", margin: "0 auto" }}
         >
           <Horizontaltimeline
             index={val.value}
+            styles={{ outline: "#fa8a13" }}
             linePadding={linePadding}
             indexClick={(index) => {
               setYear(2016 + index);

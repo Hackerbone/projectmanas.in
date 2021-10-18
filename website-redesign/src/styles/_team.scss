@@ -102,8 +102,13 @@
 .alumni h1 {
   text-align: center;
   margin: auto;
-  margin-bottom: 2rem;
+  margin: 3rem;
+
+  span {
+    color: $primary-orange !important;
+  }
 }
+
 .present {
   font-size: 30px !important;
   font-weight: bold;
@@ -112,14 +117,23 @@
 .present span {
   height: 15px !important;
   width: 15px !important;
+  background-color: $primary-orange !important;
 }
 
 .dot-label {
   transition: 0.3s all ease;
 }
 
+.future span {
+  background-color: #ffffff !important;
+}
+.past span {
+  background-color: #ffffff !important;
+}
+
 .dot-label span {
   margin: auto !important;
+  border-color: $primary-orange !important;
 }
 
 .alum-table {
