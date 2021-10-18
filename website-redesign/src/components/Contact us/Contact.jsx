@@ -84,9 +84,8 @@ export default function Contact() {
                 </div>
                 <button
                   style={{ cursor: "pointer" }}
-                  className="btn btn-dark mt-3"
+                  className="btn btn-dark mt-3 submit"
                   type="submit"
-                  className="submit"
                 >
                   Submit
                 </button>

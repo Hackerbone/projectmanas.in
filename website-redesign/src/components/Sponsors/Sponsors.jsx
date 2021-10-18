@@ -8,7 +8,7 @@ export default function Sponsors() {
 
       <div className="grid-container">
         {sponsors.map((item, idx) => (
-          <div className="grid-item">
+          <div className="grid-item" key={idx}>
             <img
               className="grid-img"
               src={item.image}
