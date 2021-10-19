@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 // import img1 from "../../assets/AboutUs/image1.jpg";
 // import Parallax from "react-rellax";
 
@@ -13,10 +13,11 @@ export default function Aboutus() {
           <div className="row">
             <h1 className="about-us-header">About Us</h1>
           </div>
-          Project MANAS is the official AI and Robotics team of MAHE, Manipal established in 2014.
-          We are the Grand Prize winners and won the Lescoe Cup at the Intelligent Ground Vehicle
-          Competition which is held at Michigan. Our aim is to build India’s first driverless car
-          and are among the top 13 participants in the Mahindra’s Rise Prize challenge.
+          Project MANAS is the official AI and Robotics team of MAHE, Manipal
+          established in 2014. We are the Grand Prize winners and won the Lescoe
+          Cup at the Intelligent Ground Vehicle Competition which is held at
+          Michigan. Our aim is to build India’s first driverless car and are
+          among the top 13 participants in the Mahindra’s Rise Prize challenge.
         </div>
         <div className="about-rotated">ABOUT</div>
         <div className="image1"></div>
@@ -24,13 +25,13 @@ export default function Aboutus() {
 
       <div className="row-alt">
         <div className="about-desc">
-          <div className="row">
-            <h1 className="vision-header">Our Vision</h1>
-          </div>{' '}
-          Project MANAS aims to inspire advanced research in Artificial Intelligence and oversee its
-          implementation enabling automated systems to be made available to generous populous. Our
-          mission is to uphold the tradition of pushing the limits of Artificial Intelligence and
-          Bringing Bits to Life.
+          <h1 className="vision-header">Vision</h1>
+          Project MANAS aims to inspire advanced research in Artificial
+          Intelligence and oversee its implementation enabling automated systems
+          to be made available to generous populous.
+          <h1 className="vision-header">Mission</h1>
+          Our mission is to uphold the tradition of pushing the limits of
+          Artificial Intelligence and Bringing Bits to Life.
         </div>
         <div className="about-rotated">VISION</div>
         <div className="image1"></div>

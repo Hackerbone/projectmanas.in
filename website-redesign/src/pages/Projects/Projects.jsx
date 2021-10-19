@@ -1,16 +1,16 @@
-import React, { useState, useLayoutEffect } from 'react';
-import { Parallax, useController } from 'react-scroll-parallax';
-import { Link } from 'react-scroll';
+import React, { useState, useLayoutEffect } from "react";
+import { Parallax, useController } from "react-scroll-parallax";
+import { Link } from "react-scroll";
 
-import projects from '../../assets/Data/projects';
+import projects from "../../assets/Data/projects";
 export default function Projects() {
   const { parallaxController } = useController();
   const [selected, setSelected] = useState(-1);
   const [showDesc, setShowDesc] = useState(-1);
   useLayoutEffect(() => {
     const handler = () => parallaxController.update();
-    window.addEventListener('load', handler);
-    return () => window.removeEventListener('load', handler);
+    window.addEventListener("load", handler);
+    return () => window.removeEventListener("load", handler);
   }, [parallaxController]);
 
   return (
@@ -50,7 +50,7 @@ export default function Projects() {
                 else setSelected(idx);
               }}
             >
-              <Parallax y={[50, -30]} tagOuter="figure">
+              <Parallax y={[20, -20]} tagOuter="figure">
                 <img src={item.image} alt="projects" className="project-img" />
                 <div className="project-name">{item.header}</div>
                 <p
@@ -69,7 +69,7 @@ export default function Projects() {
         <div className="right-section">
           {projects.map((item, idx) => (
             <div key={idx}>
-              <Parallax strength={200} key={idx} y={[10, 40]} tagOuter="figure">
+              <Parallax strength={150} key={idx} y={[10, 40]} tagOuter="figure">
                 <div className="project-content right-content" key={idx}>
                   <h1>{item.header}</h1>
                   <p>{item.description}</p>

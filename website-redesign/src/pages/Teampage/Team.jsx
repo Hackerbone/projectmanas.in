@@ -31,6 +31,8 @@ export default function Team() {
   };
 
   const VALUES = [
+    "2014-01-02",
+    "2015-01-02",
     "2016-01-02",
     "2017-01-01",
     "2018-01-01",
@@ -115,10 +117,7 @@ export default function Team() {
         <h1>
           Our <span>Alumni</span>
         </h1>
-        <div
-          className="timeline"
-          style={{ width: "60%", height: "100px", margin: "0 auto" }}
-        >
+        <div className="timeline">
           <Horizontaltimeline
             index={val.value}
             styles={{ outline: "#fa8a13" }}
