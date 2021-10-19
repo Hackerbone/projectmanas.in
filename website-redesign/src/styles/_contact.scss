@@ -139,6 +139,11 @@ textarea label {
   border: 1.5px solid #c4c4c4;
   border-radius: 4px;
   color: #c4c4c4;
+  transition: all 0.3s ease;
+}
+
+.submit:hover .submit:focus {
+  background-color: #ff6f28;
 }
 
 .error-shown input {

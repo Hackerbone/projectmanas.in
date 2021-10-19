@@ -5,7 +5,7 @@ import React from "react";
 export default function Aboutus() {
   return (
     <div className="Aboutus">
-      <div class="container">
+      {/* <div class="container">
         <div class="img1"></div>
         <div class="img2"></div>
         <div class="img3"></div>
@@ -41,6 +41,22 @@ export default function Aboutus() {
             Artificial Intelligence and Bringing Bits to Life.
           </p>
         </div>
+      </div> */}
+      <div className="top-about">
+        <div className="about">ABOUT</div>
+        <div className="about-text">About Us</div>
+        <div className="about-desc">
+          Project MANAS is the official AI and Robotics team of MAHE, Manipal
+          established in 2014. We are the Grand Prize winners and won the Lescoe
+          Cup at the Intelligent Ground Vehicle Competition which is held at
+          Michigan. Our aim is to build India’s first driverless car and are
+          among the top 13 participants in the Mahindra’s Rise Prize challenge.
+        </div>
+        <div className="image1"></div>
+      </div>
+      <div className="vision">
+        <div className="image2"></div>
+        <div className="image3"></div>
       </div>
     </div>
   );

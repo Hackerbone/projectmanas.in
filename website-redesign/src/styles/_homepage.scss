@@ -28,8 +28,9 @@
     }
   }
 
-  .Tilt {
+  .shapes {
     max-width: 90%;
+    height: 80%;
     position: absolute;
     top: 3%;
     overflow-x: hidden;
@@ -38,7 +39,6 @@
     margin: 0 auto;
     left: 5%;
     right: 5%;
-    transform: scale(0.8);
   }
 
   .ellipse69 {
@@ -48,7 +48,6 @@
     height: 6rem;
     left: 6rem;
     top: 15rem;
-    scale: 0.8;
     z-index: 10;
     background-repeat: no-repeat;
     background-size: contain;
@@ -59,7 +58,7 @@
     position: absolute;
     width: 4rem;
     height: 4rem;
-    scale: 0.8;
+
     left: 6rem;
     top: 33rem;
     background-repeat: no-repeat;
@@ -71,7 +70,7 @@
     position: absolute;
     width: 4rem;
     height: 4rem;
-    scale: 0.8;
+
     left: 48rem;
     top: 9rem;
     background-repeat: no-repeat;
@@ -83,7 +82,7 @@
     position: absolute;
     width: 2rem;
     height: 2rem;
-    scale: 0.8;
+
     left: 70rem;
     top: 18rem;
     background-repeat: no-repeat;
@@ -95,7 +94,7 @@
     position: absolute;
     width: 5rem;
     height: 5rem;
-    scale: 1;
+
     right: 10rem;
     top: 20rem;
     background-repeat: no-repeat;
@@ -107,7 +106,7 @@
     position: absolute;
     width: 6rem;
     height: 6rem;
-    scale: 1;
+
     right: 15rem;
     top: 30rem;
     background-repeat: no-repeat;
@@ -117,7 +116,7 @@
     background-image: url("../assets/Landing-shapes/Polygon\ 18.png");
     position: absolute;
     width: 5rem;
-    scale: 0.8;
+
     height: 3.5rem;
     left: 80rem;
     top: 15rem;
@@ -129,7 +128,7 @@
     background-image: url("../assets/Landing-shapes/Polygon\ 19.png");
     position: absolute;
     width: 2rem;
-    scale: 0.8;
+
     height: 2rem;
     left: 30rem;
     top: 9rem;
@@ -143,7 +142,7 @@
     width: 3rem;
     height: 3rem;
     left: 64rem;
-    scale: 0.8;
+
     top: 37rem;
     background-repeat: no-repeat;
     background-size: contain;
@@ -155,7 +154,7 @@
     width: 5rem;
     height: 5rem;
     left: 75rem;
-    scale: 0.8;
+
     top: 30rem;
     background-repeat: no-repeat;
   }
@@ -167,7 +166,6 @@
     height: 92.31px;
     left: 389px;
     top: 550px;
-    scale: 0.8;
     background-repeat: no-repeat;
   }
 }
