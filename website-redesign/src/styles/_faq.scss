@@ -10,6 +10,7 @@
   min-height: 100vh;
   display: grid;
   place-items: center;
+
   h1 {
     color: $very-dark-desaturated-blue;
     font-size: 32px;
@@ -29,19 +30,10 @@
     outline-offset: 0px;
   }
 
-  #root {
-    width: 100%;
-  }
-
-  .faq-container {
-    max-width: 1440px;
-    width: 100%;
-  }
-
   .font-weight-bold {
     font-weight: 700;
   }
-  .faq-container {
+  .component {
     margin: 0 auto;
     max-width: 920px;
     width: 100%;
@@ -135,19 +127,19 @@
       transition: all 200ms ease-out;
     }
   }
+}
 
-  @media only screen and (max-width: 800px) {
-    .illustration__woman-desktop {
-      max-width: 120%;
-    }
+@media only screen and (max-width: 800px) {
+  .illustration__woman-desktop {
+    max-width: 120%;
   }
+}
 
-  @media only screen and (max-width: 700px) {
-    .faq-container {
-      padding-top: 105px;
-    }
+@media only screen and (max-width: 700px) {
+  .faq-container {
+    padding-top: 105px;
 
-    .faq-container {
+    .component {
       max-width: 327px;
       background-image: url(../assets/FAQ/bg-pattern-mobile.svg);
       background-position: top;
