@@ -4,6 +4,7 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+
   .project-header {
     color: $primary-orange;
     font-size: 4rem;
@@ -15,6 +16,7 @@
     top: 0;
     text-align: center;
     z-index: 999;
+
     .header-underline {
       height: 4px;
       width: 60px !important;
@@ -30,6 +32,7 @@
     display: flex;
 
     padding-bottom: 10rem;
+
     .pointer-section {
       flex: 1;
       display: flex;
@@ -44,9 +47,11 @@
         flex: 2;
         padding-left: 3rem;
       }
+
       @media only screen and (max-width: 992px) {
         display: none;
       }
+
       .orbit {
         cursor: pointer;
         height: 30px;
@@ -89,6 +94,7 @@
         display: inline-block;
       }
     }
+
     .left-section {
       flex: 7;
       display: flex;
@@ -97,6 +103,14 @@
 
       @media only screen and (max-width: 768px) {
         padding-bottom: 4rem;
+      }
+
+      .single-project {
+        padding-top: 7rem;
+
+        @media only screen and (max-width: 768px) {
+          padding-top: 0;
+        }
       }
     }
 
@@ -115,26 +129,31 @@
         text-align: left;
         // background: pink;
       }
+
       .project-content {
         flex: 1;
         padding: 2rem;
         // padding-top: 0;
         display: flex;
         flex-direction: column;
+
         h1 {
           font-size: 3.5rem;
           font-family: $oswald;
           font-weight: 500;
+
           @media only screen and (max-width: 1024px) {
             & {
               font-size: 2.6rem;
             }
           }
+
           @media only screen and (max-width: 992px) {
             & {
               font-size: 2.4rem;
             }
           }
+
           @media only screen and (max-width: 768px) {
             & {
               font-size: 2rem;
@@ -147,11 +166,13 @@
           font-family: $montserrat;
           line-height: 2.5rem;
           margin-top: 1rem;
+
           @media only screen and (max-width: 1024px) {
             & {
               font-size: 1rem;
             }
           }
+
           @media only screen and (max-width: 768px) {
             & {
               font-size: 0.9rem;
@@ -203,8 +224,10 @@
       }
     }
   }
+
   .parallax-div {
     width: 45vw;
+
     @media only screen and (max-width: 768px) {
       & {
         width: 80vw;
@@ -215,6 +238,7 @@
   .parallax-inner {
     text-align: center;
   }
+
   .project-img {
     max-width: 100%;
     height: auto;
@@ -253,7 +277,7 @@
     // transform: translate(-50%, -52%);
     opacity: 0;
     transform: translate(-50%, 30%);
-
+    z-index: -1;
     background: rgba($color: $secondary-black, $alpha: 0.8);
     display: none;
     transition: 0.2s ease-in-out all;
@@ -263,6 +287,7 @@
       justify-content: center;
       align-items: center;
     }
+
     @media only screen and (max-width: 576px) {
       display: flex;
       justify-content: center;
@@ -278,6 +303,7 @@
     @media only screen and (max-width: 768px) {
       transform: translate(-50%, -50%);
       display: flex;
+      z-index: 2;
       opacity: 1;
     }
   }

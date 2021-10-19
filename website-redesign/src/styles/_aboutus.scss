@@ -1,134 +1,157 @@
-.Aboutus {
+.about-section {
   background-color: #ffffff;
-  height: 200vh;
+  padding: 2rem;
   display: flex;
   flex-direction: column;
-  overflow-y: hidden;
-}
 
-.container {
-  position: relative;
-  height: 200vh;
-  width: 80%;
-  perspective: 1px;
-  perspective-origin: 0 0;
-}
+  .section-header {
+    text-align: center;
 
-.img1 {
-  position: sticky;
-  position: -webkit-sticky;
-  z-index: -1;
-  top: 7rem;
-  left: 5rem;
-  width: 40rem;
-  height: 25rem;
-  background: url("../assets/AboutUs/image1.jpg");
-  background-size: cover;
-  transform-origin: 0 0;
-}
+    h1 {
+      font-size: 4rem;
+      font-weight: 700;
+      margin-bottom: 1rem;
+    }
+  }
 
-.img2 {
-  position: sticky;
-  position: -webkit-sticky;
-  background: url("../assets/AboutUs/imgsolo.jpg");
-  width: 13rem;
-  height: 18rem;
-  left: 35rem;
-  top: 3rem;
-  z-index: 2;
-  background-size: cover;
-  transition: all ease;
-}
+  .row-alt {
+    flex-direction: row-reverse;
+    padding: 2rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
 
-.img3 {
-  position: sticky;
-  position: -webkit-sticky;
-  background: url("../assets/AboutUs/image2.jpg");
-  background-size: cover;
-  width: 8rem;
-  height: 13rem;
-  left: 3rem;
-  padding: 2rem;
-  top: 25rem;
-}
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+    }
 
-.about-us-text {
-  width: 40%;
-  flex-wrap: wrap;
-  font-size: 1.5rem;
-  padding-right: 3rem;
-}
+    .about-rotated {
+      transform: rotate(90deg);
+      font-size: 7rem;
+      z-index: 0;
+      flex: 1;
+      position: relative;
+      top: -5rem;
+      left: 1rem;
+      min-width: 3rem;
+      color: #dddddd;
 
-.about-us-text span {
-  color: #fa8a13;
-}
+      @media only screen and (max-width: 1200px) {
+        top: -7rem;
+      }
 
-.about-us-text h1 {
-  font-weight: 800;
-}
+      @media only screen and (max-width: 768px) {
+        display: none;
+      }
+    }
 
-.text1-container {
-  text-align: left;
-  padding-top: 8rem;
-}
+    .vision-header {
+      font-size: 2.4rem;
+    }
 
-.text2-container {
-  text-align: right;
-  padding-top: 13rem;
-}
+    .about-desc {
+      flex: 6;
+      z-index: 0;
+      position: relative;
+      padding: 1rem;
+      padding-left: 4rem;
+      font-size: 1.2rem;
 
-.about {
-  transform: rotate(90deg);
-  font-size: 7rem;
-  position: relative;
-  top: 17rem;
-  left: 30%;
-  height: 7rem;
-  width: fit-content;
-  color: #f0f0f0;
-}
+      @media only screen and (max-width: 768px) {
+        padding-left: 0;
+        flex: none !important;
+      }
+    }
 
-.top-about {
-  height: 100vh;
-}
-.image1 {
-  background: url("../assets/AboutUs/image1.jpg");
-  width: 40rem;
-  height: 25rem;
-  position: relative;
-  left: 50%;
-  border-radius: 10%;
-  background-size: cover;
-}
+    .image1 {
+      background: url("../assets/AboutUs/image2.jpg");
+      width: 90%;
+      height: 25rem;
+      margin: 1rem;
 
-.image2 {
-  background: url("../assets/AboutUs/image2.jpg");
-  width: 13rem;
-  height: 18rem;
-  background-size: cover;
-}
+      background-position: center;
+      flex: 6;
+      max-width: 600px;
+      border-radius: 1rem;
+      background-size: cover;
+      background-repeat: no-repeat;
 
-.image3 {
-  background: url("../assets/AboutUs/imgsolo.jpg");
-  width: 8rem;
-  height: 13rem;
-  background-size: cover;
-}
+      @media only screen and (max-width: 768px) {
+        flex: none !important;
+      }
+    }
 
-.about-text {
-  font-weight: bold;
-  font-size: 2rem;
-  width: fit-content;
-  top: 30%;
-  left: 17%;
-  display: inline-block;
-  position: relative;
-}
 
-.about-desc {
-  position: relative;
-  display: inline-block;
-  flex-wrap: wrap;
-  max-width: 30%;
-  font-size: 1.3rem;
+  }
+
+  .row {
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+
+    @media only screen and (max-width: 768px) {
+      justify-content: center;
+      align-items: flex-start;
+
+    }
+
+    @media only screen and (max-width: 768px) {
+      flex-direction: column;
+    }
+
+    .about-rotated {
+      transform: rotate(90deg);
+      font-size: 7rem;
+      z-index: 0;
+      flex: 1;
+      position: relative;
+      top: -5rem;
+      left: -2rem;
+
+      @media only screen and (max-width: 768px) {
+        display: none;
+      }
+
+      min-width: 3rem;
+      color: #dddddd;
+    }
+
+    .about-us-header {
+      font-size: 2.4rem;
+    }
+
+    .about-desc {
+      flex: 6;
+      z-index: 0;
+      position: relative;
+      padding: 1rem;
+      font-size: 1.2rem;
+      padding-right: 4rem;
+
+      @media only screen and (max-width: 768px) {
+        padding-left: 0;
+        flex: none;
+      }
+    }
+
+    .image1 {
+      background: url("../assets/AboutUs/image1.jpg");
+      width: 90%;
+      height: 25rem;
+      margin: 1rem;
+
+      background-position: center;
+      flex: 5;
+      max-width: 600px;
+
+      border-radius: 1rem;
+      background-size: cover;
+
+      @media only screen and (max-width: 768px) {
+        flex: none !important;
+      }
+    }
+
+  }
+
 }

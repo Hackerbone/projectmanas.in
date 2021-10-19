@@ -1,16 +1,16 @@
-import React, { useState, useLayoutEffect } from "react";
-import { Parallax, useController } from "react-scroll-parallax";
-import { Link } from "react-scroll";
+import React, { useState, useLayoutEffect } from 'react';
+import { Parallax, useController } from 'react-scroll-parallax';
+import { Link } from 'react-scroll';
 
-import projects from "../../assets/Data/projects";
+import projects from '../../assets/Data/projects';
 export default function Projects() {
   const { parallaxController } = useController();
   const [selected, setSelected] = useState(-1);
   const [showDesc, setShowDesc] = useState(-1);
   useLayoutEffect(() => {
     const handler = () => parallaxController.update();
-    window.addEventListener("load", handler);
-    return () => window.removeEventListener("load", handler);
+    window.addEventListener('load', handler);
+    return () => window.removeEventListener('load', handler);
   }, [parallaxController]);
 
   return (
@@ -44,7 +44,7 @@ export default function Projects() {
             <div
               id={`project-` + idx}
               key={idx}
-              style={{ paddingTop: "7rem" }}
+              className="single-project"
               onClick={() => {
                 if (selected === idx) setSelected(-1);
                 else setSelected(idx);
