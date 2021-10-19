@@ -1,6 +1,7 @@
 import React from "react";
 import manasLogo from "../../assets/Logos/manas-with-border.png";
 import manasMotto from "../../assets/Logos/manas-motto.svg";
+import { Parallax } from "react-scroll-parallax";
 
 export default function Landing() {
   return (
@@ -18,8 +19,6 @@ export default function Landing() {
         <div className="polygon18"></div>
         <div className="polygon19"></div>
         <div className="polygon20"></div>
-        {/* <div className="ellipse18"></div>
-            <div className="ellipse19"></div> */}
         <div className="polygon21"></div>
         <div className="polygon22"></div>
       </div>

@@ -111,6 +111,9 @@ export default function Team() {
             );
           })}
         </div>
+        <span className="">
+          Our <b>Mentors</b>{" "}
+        </span>
       </div>
 
       <div className="alumni">
@@ -123,7 +126,7 @@ export default function Team() {
             styles={{ outline: "#fa8a13" }}
             linePadding={linePadding}
             indexClick={(index) => {
-              setYear(2016 + index);
+              setYear(2014 + index);
               setVal({ value: index, previous: val.value });
             }}
             getLabel={(date) => {

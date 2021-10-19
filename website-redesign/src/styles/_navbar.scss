@@ -1,7 +1,7 @@
 .navbar-container {
   background-color: #000000;
   width: 100%;
-  z-index: 1000;
+  z-index: 2000;
   display: flex;
   color: #fff;
   height: auto;
@@ -34,6 +34,7 @@
     margin-left: auto;
     transition: 0.5s ease-in-out all;
     width: 100%;
+    z-index: 1000;
 
     @media only screen and (max-width: 768px) {
       display: block;
