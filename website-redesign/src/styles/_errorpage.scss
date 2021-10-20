@@ -6,9 +6,10 @@
   height: auto;
   padding: 0.2rem 1rem;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 400px) {
     flex-direction: column;
     padding: 0.4rem 1rem;
+    font-size: smaller;
   }
 
   .manas-logo {
@@ -18,8 +19,9 @@
     background-size: contain;
     background-repeat: no-repeat;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 400px) {
       display: flex;
+      font-size: smaller;
       justify-content: center;
     }
   }
@@ -28,9 +30,11 @@
     display: flex;
     margin-left: auto;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 400px) {
       display: block;
       margin-left: 0;
+      font-size: 400px;
+      justify-content: center;
     }
 
     .nav-link {
@@ -42,8 +46,9 @@
       padding: 1rem 1.4rem;
       font-size: 1.4rem;
 
-      @media only screen and (max-width: 768px) {
-        justify-content: flex-start;
+      @media only screen and (max-width: 400px) {
+        justify-content: center;
+        font-size: 400px;
       }
     }
   }
@@ -114,5 +119,9 @@
   .Button:hover:after {
     width: 102%;
     height: 102%;
+  }
+  @media only screen and (max-width: 400px) {
+    justify-content: center;
+    font-size: smaller;
   }
 }
