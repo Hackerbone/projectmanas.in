@@ -121,7 +121,7 @@ const alums = [
   {
     name: "Kaushik Nath",
     nickname: null,
-    designation: "Perception Head (September, 2015 - August, 2016)",
+    designation: "Perception Head (Sep, 2015 - Aug, 2016)",
     image: "/Alumni/kaushik-nath.jpg",
     facebook: null,
     mail: null,

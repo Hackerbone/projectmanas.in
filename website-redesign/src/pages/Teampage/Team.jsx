@@ -41,7 +41,7 @@ export default function Team() {
     "2020-01-01",
   ];
 
-  const [year, setYear] = useState(2016);
+  const [year, setYear] = useState(2014);
 
   const linePadding = 120;
 
@@ -197,12 +197,13 @@ export default function Team() {
           <div className="alum-table">
             {alums.map((data, idx) => {
               let imgLink = 'url("' + data.image + '")';
+              let cls = year;
               if (data.year === year) {
                 return (
                   <div className="content" key={idx}>
                     <div className="alumni-member">
                       <div
-                        className="profile-image"
+                        className={`profile-image-${cls}`}
                         style={{ backgroundImage: imgLink }}
                       ></div>
                       <div className="alumni-name">{data.name}</div>

@@ -1,6 +1,6 @@
 import React from "react";
 // import img1 from "../../assets/AboutUs/image1.jpg";
-// import Parallax from "react-rellax";
+import Parallax from "react-rellax";
 
 export default function Aboutus() {
   return (
@@ -8,20 +8,23 @@ export default function Aboutus() {
       <div className="section-header">
         <h1>What do we do?</h1>
       </div>
-      <div className="row ">
-        <div className="about-desc">
-          <div className="row">
-            <h1 className="about-us-header">About Us</h1>
+      <Parallax speed={4}>
+        <div className="row ">
+          <div className="about-desc">
+            <div className="row">
+              <h1 className="about-us-header">About Us</h1>
+            </div>
+            Project MANAS is the official AI and Robotics team of MAHE, Manipal
+            established in 2014. We are the Grand Prize winners and won the
+            Lescoe Cup at the Intelligent Ground Vehicle Competition which is
+            held at Michigan. Our aim is to build India’s first driverless car
+            and are among the top 13 participants in the Mahindra’s Rise Prize
+            challenge.
           </div>
-          Project MANAS is the official AI and Robotics team of MAHE, Manipal
-          established in 2014. We are the Grand Prize winners and won the Lescoe
-          Cup at the Intelligent Ground Vehicle Competition which is held at
-          Michigan. Our aim is to build India’s first driverless car and are
-          among the top 13 participants in the Mahindra’s Rise Prize challenge.
+          <div className="about-rotated">ABOUT</div>
+          <div className="image1"></div>
         </div>
-        <div className="about-rotated">ABOUT</div>
-        <div className="image1"></div>
-      </div>
+      </Parallax>
 
       <div className="row-alt">
         <div className="about-desc">

@@ -196,6 +196,17 @@
         background-size: 100% 200%;
       }
 
+      .profile-image-2014,
+      .profile-image-2015,
+      .profile-image-2016 {
+        width: 7rem;
+        height: 7rem;
+        border-radius: 100px;
+        background-position: 100% 0;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+      }
+
       .icon-shown {
         display: inline-block;
         height: 20px;
