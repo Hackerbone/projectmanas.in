@@ -28,12 +28,13 @@
     }
   }
 
-  .shapes {
+  .tilt {
     max-width: 90%;
     height: 100%;
     position: absolute;
     top: 3%;
     z-index: 10;
+    scroll-behavior: smooth;
     overflow-x: hidden;
     overflow-y: hidden;
     width: 100%;

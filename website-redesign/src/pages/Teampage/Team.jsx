@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import members from "../../assets/Data/members";
 import alums from "../../assets/Data/alums";
-// import Stepper from "react-stepper-horizontal";
+import mentors from "../../assets/Data/mentors";
+
 import Horizontaltimeline from "react-horizontal-timeline";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -111,9 +112,65 @@ export default function Team() {
             );
           })}
         </div>
+
         <span className="">
           Our <b>Mentors</b>{" "}
         </span>
+
+        <div className="team-table">
+          {mentors.map((item, idx) => {
+            let imgLink = 'url("' + item.image + '")';
+
+            return (
+              <div className="member" key={idx}>
+                <div
+                  className="mentor-image"
+                  style={{
+                    backgroundImage: imgLink,
+                  }}
+                ></div>
+                <div className="member-name">{item.name}</div>
+                <div className="member-designation">{item.designation}</div>
+                <div className="social-link">
+                  <a
+                    href={item.facebook}
+                    target="_blank"
+                    rel="noreferrer"
+                    id="link"
+                    className={`icon-${item.facebook ? "shown" : "hidden"}`}
+                  >
+                    <FontAwesomeIcon icon={faFacebookF} />
+                  </a>
+
+                  <a
+                    href={item.mail}
+                    target="_blank"
+                    rel="noreferrer"
+                    className={`icon-${item.mail ? "shown" : "hidden"}`}
+                  >
+                    <FontAwesomeIcon icon={faEnvelope} />
+                  </a>
+                  <a
+                    href={item.linkedin}
+                    target="_blank"
+                    rel="noreferrer"
+                    className={`icon-${item.linkedin ? "shown" : "hidden"}`}
+                  >
+                    <FontAwesomeIcon icon={faLinkedinIn} />
+                  </a>
+                  <a
+                    href={item.github}
+                    target="_blank"
+                    rel="noreferrer"
+                    className={`icon-${item.github ? "shown" : "hidden"}`}
+                  >
+                    <FontAwesomeIcon icon={faGithub} />
+                  </a>
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
 
       <div className="alumni">

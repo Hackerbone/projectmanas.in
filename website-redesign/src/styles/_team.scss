@@ -65,11 +65,13 @@
         .member-name {
           padding: 0;
           font-size: 1.2rem;
+          text-align: center;
         }
 
         .member-designation {
           color: $primary-orange;
           overflow-wrap: break-word;
+          text-align: center;
         }
 
         .profile-image {
@@ -225,4 +227,13 @@
   @media only screen and (max-width: 768px) {
     width: 90%;
   }
+}
+
+.mentor-image {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 100px;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: 100% 200%;
 }
