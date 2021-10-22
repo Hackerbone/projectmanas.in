@@ -8,23 +8,21 @@ export default function Aboutus() {
       <div className="section-header">
         <h1>What do we do?</h1>
       </div>
-      <Parallax speed={4}>
-        <div className="row ">
-          <div className="about-desc">
-            <div className="row">
-              <h1 className="about-us-header">About Us</h1>
-            </div>
-            Project MANAS is the official AI and Robotics team of MAHE, Manipal
-            established in 2014. We are the Grand Prize winners and won the
-            Lescoe Cup at the Intelligent Ground Vehicle Competition which is
-            held at Michigan. Our aim is to build India’s first driverless car
-            and are among the top 13 participants in the Mahindra’s Rise Prize
-            challenge.
+
+      <div className="row ">
+        <div className="about-desc">
+          <div className="row">
+            <h1 className="about-us-header">About Us</h1>
           </div>
-          <div className="about-rotated">ABOUT</div>
-          <div className="image1"></div>
+          Project MANAS is the official AI and Robotics team of MAHE, Manipal
+          established in 2014. We are the Grand Prize winners and won the Lescoe
+          Cup at the Intelligent Ground Vehicle Competition which is held at
+          Michigan. Our aim is to build India’s first driverless car and are
+          among the top 13 participants in the Mahindra’s Rise Prize challenge.
         </div>
-      </Parallax>
+        <div className="about-rotated">ABOUT</div>
+        <div className="image1"></div>
+      </div>
 
       <div className="row-alt">
         <div className="about-desc">
@@ -39,6 +37,7 @@ export default function Aboutus() {
         <div className="about-rotated">VISION</div>
         <div className="image1"></div>
       </div>
+
       {/* <div class="container">
         <div class="img1"></div>
         <div class="img2"></div>
