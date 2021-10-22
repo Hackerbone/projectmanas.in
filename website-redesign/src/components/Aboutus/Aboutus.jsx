@@ -1,6 +1,6 @@
 import React from "react";
 // import img1 from "../../assets/AboutUs/image1.jpg";
-import Parallax from "react-rellax";
+// import Parallax from "react-rellax";
 
 export default function Aboutus() {
   return (
