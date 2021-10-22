@@ -36,6 +36,10 @@
     span {
       font-size: 2.4rem;
       text-align: center;
+
+      b {
+        color: $primary-orange;
+      }
     }
 
     .team-table {
@@ -58,6 +62,12 @@
         transition: all 0.3s ease;
         border-radius: 8px;
 
+        @media only screen and (max-width: 768px) {
+          width: 5.5rem;
+          margin: 1rem;
+          padding: 0.5rem 0.5rem 0.5rem 0.5rem;
+        }
+
         &:hover {
           filter: drop-shadow(0px 8px 4px rgba(0, 0, 0, 0.25));
         }
@@ -66,12 +76,20 @@
           padding: 0;
           font-size: 1.2rem;
           text-align: center;
+
+          @media only screen and (max-width: 768px) {
+            font-size: 0.5rem;
+            padding-top: 0.3rem;
+          }
         }
 
         .member-designation {
           color: $primary-orange;
           overflow-wrap: break-word;
           text-align: center;
+          @media only screen and (max-width: 768px) {
+            font-size: 0.4rem;
+          }
         }
 
         .profile-image {
@@ -81,6 +99,11 @@
           background-position: 0 0;
           background-repeat: no-repeat;
           background-size: 100% 200%;
+
+          @media only screen and (max-width: 768px) {
+            width: 2rem;
+            height: 2rem;
+          }
         }
 
         .profile-image:hover {
@@ -94,17 +117,35 @@
           margin: 0 10px 10px 0;
           text-align: center;
           line-height: 40px;
-          border-radius: 50%;
           color: #000000;
           transition: all 0.3s ease;
+
+          @media only screen and (max-width: 768px) {
+            height: 5px;
+            width: 5px;
+            line-height: 10px;
+            margin: 0.2rem;
+            font-size: 6px;
+          }
         }
 
         .icon-hidden {
           display: none;
         }
 
+        .social-link a:nth-child(1):hover {
+          color: #3b5998;
+          transform: scale(1.2);
+        }
+        .social-link a:nth-child(2):hover {
+          color: #d1c436;
+          transform: scale(1.2);
+        }
         .social-link a:nth-child(3):hover {
           color: #0072b1;
+          transform: scale(1.2);
+        }
+        .social-link a:nth-child(4):hover {
           transform: scale(1.2);
         }
       }
@@ -171,6 +212,13 @@
       border-radius: 8px;
       min-height: 17rem;
 
+      @media only screen and (max-width: 768px) {
+        width: 6rem;
+        margin: 0.7rem;
+        padding: 0.5rem;
+        min-height: 7rem;
+      }
+
       &:hover {
         filter: drop-shadow(0px 8px 4px rgba(0, 0, 0, 0.25));
       }
@@ -179,12 +227,23 @@
         padding: 0;
         font-size: 1.2rem;
         text-align: center;
+
+        @media only screen and (max-width: 768px) {
+          font-size: 0.5rem;
+          padding-top: 0.3rem;
+        }
       }
 
       .alumni-designation {
         color: $primary-orange;
         overflow-wrap: break-word;
         text-align: center;
+        min-height: 3rem;
+
+        @media only screen and (max-width: 768px) {
+          font-size: 0.4rem;
+          min-height: 0.8rem;
+        }
       }
 
       .profile-image-2018,
@@ -196,6 +255,11 @@
         background-position: 100% 0;
         background-repeat: no-repeat;
         background-size: 100% 200%;
+
+        @media only screen and (max-width: 768px) {
+          width: 2rem;
+          height: 2rem;
+        }
       }
 
       .profile-image-2014,
@@ -207,6 +271,11 @@
         background-position: 100% 0;
         background-repeat: no-repeat;
         background-size: 100% 100%;
+
+        @media only screen and (max-width: 768px) {
+          width: 2rem;
+          height: 2rem;
+        }
       }
 
       .icon-shown {
@@ -219,14 +288,32 @@
         border-radius: 50%;
         color: #000000;
         transition: all 0.3s ease;
+
+        @media only screen and (max-width: 768px) {
+          height: 5px;
+          width: 5px;
+          line-height: 10px;
+          font-size: 6px;
+        }
       }
 
       .icon-hidden {
         display: none;
       }
 
+      .social-link a:nth-child(1):hover {
+        color: #3b5998;
+        transform: scale(1.2);
+      }
+      .social-link a:nth-child(2):hover {
+        color: #d1c436;
+        transform: scale(1.2);
+      }
       .social-link a:nth-child(3):hover {
         color: #0072b1;
+        transform: scale(1.2);
+      }
+      .social-link a:nth-child(4):hover {
         transform: scale(1.2);
       }
     }
@@ -249,4 +336,14 @@
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: 100% 200%;
+
+  @media only screen and (max-width: 768px) {
+    width: 2rem;
+    height: 2rem;
+  }
+}
+
+.social-link {
+  justify-content: center;
+  align-items: center;
 }
