@@ -17,9 +17,21 @@ export default function Footer() {
             <div className="footer-col">
               <h4>Get in Touch</h4>
               <ul>
-                <li>projectmanas.mit@gmail.com</li>
-                <li>tech_head@projectmanas.in</li>
-                <li>team_manager@projectmanas.in</li>
+                <li>
+                  <a href="mailto:projectmanas.mit@gmail.com">
+                    projectmanas.mit@gmail.com
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:tech_head@projectmanas.in">
+                    tech_head@projectmanas.in
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:team_manager@projectmanas.in">
+                    team_manager@projectmanas.in
+                  </a>
+                </li>
               </ul>
             </div>
             <div className="footer-col">
