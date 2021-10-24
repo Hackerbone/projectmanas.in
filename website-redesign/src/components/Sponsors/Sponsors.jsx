@@ -5,6 +5,7 @@ export default function Sponsors() {
   return (
     <div className="sponsors" id="sponsors">
       <h2>Sponsors</h2>
+      <div className="header-underline"></div>
 
       <div className="grid-container">
         {sponsors.map((item, idx) => (

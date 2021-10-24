@@ -1,13 +1,24 @@
 .sponsors {
   background-color: #071013;
   padding: 30px;
+
+  .header-underline {
+    height: 3px;
+    width: 50px !important;
+    background-color: $primary-orange;
+    // margin-left: auto;
+    margin: 0 auto;
+    transform: translateY(-30px) translateX(55px);
+  }
 }
 
 .sponsors h2 {
   color: #ffffff;
-  padding: 30px;
-  font-weight: 200;
-  font-size: 40px;
+  font-size: 2.5rem;
+  padding: 1rem;
+  width: 100%;
+  top: 75px;
+  z-index: 999;
   text-align: center;
 }
 

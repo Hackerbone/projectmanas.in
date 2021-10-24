@@ -13,7 +13,7 @@
     width: 100%;
     background: rgba($color: $secondary-black, $alpha: 1);
     box-shadow: 0 4px 16px rgba($color: $primary-black, $alpha: 0.2);
-    top: 0;
+    top: 75px;
     text-align: center;
     z-index: 999;
 
@@ -39,7 +39,7 @@
       flex-direction: column;
       position: sticky;
       height: 60vh;
-      top: 20vh;
+      top: 25vh;
       justify-content: space-evenly;
       padding-left: 4rem;
 
