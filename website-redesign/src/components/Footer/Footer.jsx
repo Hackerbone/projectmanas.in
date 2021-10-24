@@ -1,12 +1,12 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import React from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,
   faTwitter,
   faInstagram,
   faYoutube,
   faLinkedinIn,
-} from '@fortawesome/free-brands-svg-icons';
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
@@ -40,19 +40,19 @@ export default function Footer() {
             <div className="footer-col">
               <h4>Connect</h4>
               <div className="social-links">
-                <a href="/">
+                <a href="https://www.facebook.com/projectmanas">
                   <FontAwesomeIcon icon={faFacebookF} />
                 </a>
-                <a href="/">
+                <a href="https://www.instagram.com/project.manas/?hl=en">
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
-                <a href="/">
+                <a href="https://twitter.com/projectmanas">
                   <FontAwesomeIcon icon={faTwitter} />
                 </a>
-                <a href="/">
+                <a href="https://www.youtube.com/channel/UCpgA3-I00lUVgXVeg1CNaFw">
                   <FontAwesomeIcon icon={faYoutube} />
                 </a>
-                <a href="/">
+                <a href="https://www.linkedin.com/company/project-manas/">
                   <FontAwesomeIcon icon={faLinkedinIn} />
                 </a>
               </div>
