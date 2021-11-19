@@ -24,6 +24,7 @@
     "react-scripts": "4.0.3",
     "react-scroll": "^1.8.4",
     "react-scroll-parallax": "^2.4.0",
+    "react-scrollable-anchor": "^0.6.1",
     "react-stepper-horizontal": "^1.0.11",
     "react-tilt": "^0.1.4",
     "rellax": "^1.12.1",

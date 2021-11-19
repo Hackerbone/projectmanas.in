@@ -24,6 +24,9 @@ function App() {
           <Team />
         </Route>
 
+        <Route exact path={"/team/:year"} children={<Team />}>
+          </Route>
+
         <Route exact path={"/faq"}>
           <FAQ />
         </Route>
@@ -31,6 +34,7 @@ function App() {
         <Route exact path={"/*"}>
           <Errorpage />
         </Route>
+
       </Switch>
 
       <Footer />

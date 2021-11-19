@@ -1,9 +1,10 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import members from "../../assets/Data/members";
 import alums from "../../assets/Data/alums";
 import mentors from "../../assets/Data/mentors";
-
+import { useParams } from "react-router-dom";
 import Horizontaltimeline from "react-horizontal-timeline";
+import * as Scroll from "react-scroll";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
@@ -14,7 +15,11 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Team() {
+  var Element = Scroll.Element;
+  var scroller = Scroll.scroller;
+
   const [showText, setShowText] = useState({});
+  const params = useParams();
 
   const [val, setVal] = useState({ value: 0, previous: 0 });
 
@@ -44,6 +49,18 @@ export default function Team() {
   const [year, setYear] = useState(2014);
 
   const linePadding = 120;
+
+  useEffect(() => {
+    if (params.year) {
+      setYear(parseInt(params.year));
+      setVal({ value: parseInt(params.year) - 2014, previous: 2014 });
+      scroller.scrollTo("alumni", {
+        duration: 1500,
+      });
+    } else {
+      setYear(2014);
+    }
+  }, []);
 
   return (
     <div className="teampage-container">
@@ -173,7 +190,7 @@ export default function Team() {
         </div>
       </div>
 
-      <div className="alumni">
+      <div className="alumni" name="alumni">
         <h1>
           Our <span>Alumni</span>
         </h1>
@@ -200,7 +217,7 @@ export default function Team() {
               let cls = year;
               if (data.year === year) {
                 return (
-                  <div className="content" key={idx}>
+                  <div className="content" key={idx} id={cls}>
                     <div className="alumni-member">
                       <div
                         className={`profile-image-${cls}`}
