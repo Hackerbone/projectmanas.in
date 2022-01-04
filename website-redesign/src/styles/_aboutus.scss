@@ -1,152 +1,93 @@
-.about-section {
-  background-color: #ffffff;
-  padding: 2rem;
-  display: flex;
-  flex-direction: column;
+.filler {
+  height: 75px;
+}
 
-  .section-header {
+.section-header {
+  text-align: center;
+
+  .header-underline {
+    height: 4px;
+    width: 60px !important;
+    background-color: #c1c1c1;
+    // margin-left: auto;
+    margin: 0 auto;
     text-align: center;
+  }
 
-    h1 {
-      font-size: 4rem;
-      font-weight: 700;
-      margin-bottom: 1rem;
+  h1 {
+    font-size: 3rem;
+    font-weight: 700;
+
+    span {
+      color: $primary-orange;
+    }
+  }
+}
+
+.row {
+  padding: 0rem 0;
+  display: flex;
+  align-items: center;
+
+  @media only screen and (max-width: 768px) {
+    justify-content: center;
+    align-items: flex-start;
+  }
+
+  @media only screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+
+  .about-us-header {
+    font-size: 2.2rem;
+  }
+
+  .about-us-header-small {
+    font-size: 1.8rem;
+  }
+
+  .about-desc {
+    flex: 6;
+    z-index: 0;
+    position: relative;
+    padding: 1rem;
+    font-size: 1rem;
+    padding-right: 10rem;
+
+    @media only screen and (max-width: 768px) {
+      padding-left: 0;
+      flex: none;
     }
   }
 
-  .row-alt {
-    flex-direction: row-reverse;
-    padding: 2rem 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
+  .image1 {
+    background: url("../assets/AboutUs/image1.jpg");
+    height: 18rem;
+    margin: 1rem;
+    width: 20rem;
+    position: relative;
+    max-width: 500px;
+    background-position: center;
+    flex: 5;
+    background-size: cover;
 
     @media only screen and (max-width: 768px) {
-      flex-direction: column;
-    }
-
-    .about-rotated {
-      transform: rotate(90deg);
-      font-size: 7rem;
-      z-index: 0;
-      flex: 1;
-      position: relative;
-      top: -5rem;
-      left: 1rem;
-      min-width: 3rem;
-      color: #dddddd;
-
-      @media only screen and (max-width: 1200px) {
-        top: -7rem;
-      }
-
-      @media only screen and (max-width: 768px) {
-        display: none;
-      }
-    }
-
-    .vision-header {
-      font-size: 2.4rem;
-    }
-
-    .about-desc {
-      flex: 6;
-      z-index: 0;
-      position: relative;
-      padding: 1rem;
-      padding-left: 4rem;
-      font-size: 1.2rem;
-
-      @media only screen and (max-width: 768px) {
-        padding-left: 0;
-        flex: none !important;
-      }
-    }
-
-    .image1 {
-      background: url("../assets/AboutUs/image2.jpg");
-      width: 90%;
-      height: 25rem;
-      margin: 1rem;
-
-      background-position: center;
-      flex: 6;
-      max-width: 600px;
-      border-radius: 1rem;
-      background-size: cover;
-      background-repeat: no-repeat;
-
-      @media only screen and (max-width: 768px) {
-        flex: none !important;
-      }
+      flex: none !important;
     }
   }
 
-  .row {
-    padding: 2rem 0;
-    display: flex;
-    align-items: center;
+  .imagebg {
+    border: 2px solid black;
+    transform: translate(2px, 2px, 0);
+    z-index: -1;
+    height: 18rem;
+    width: 20rem;
+    max-width: 500px;
 
-    @media only screen and (max-width: 768px) {
-      justify-content: center;
-      align-items: flex-start;
-    }
-
-    @media only screen and (max-width: 768px) {
-      flex-direction: column;
-    }
-
-    .about-rotated {
-      transform: rotate(90deg);
-      font-size: 7rem;
-      z-index: 0;
-      flex: 1;
-      position: relative;
-      top: -5rem;
-      left: -2rem;
-
-      @media only screen and (max-width: 768px) {
-        display: none;
-      }
-
-      min-width: 3rem;
-      color: #dddddd;
-    }
-
-    .about-us-header {
-      font-size: 2.4rem;
-    }
-
-    .about-desc {
-      flex: 6;
-      z-index: 0;
-      position: relative;
-      padding: 1rem;
-      font-size: 1.2rem;
-      padding-right: 4rem;
-
-      @media only screen and (max-width: 768px) {
-        padding-left: 0;
-        flex: none;
-      }
-    }
-
-    .image1 {
-      background: url("../assets/AboutUs/image1.jpg");
-      width: 90%;
-      height: 25rem;
-      margin: 1rem;
-
-      background-position: center;
-      flex: 5;
-      max-width: 600px;
-
-      border-radius: 1rem;
-      background-size: cover;
-
-      @media only screen and (max-width: 768px) {
-        flex: none !important;
-      }
-    }
+    position: relative;
   }
+}
+
+.last {
+  margin-bottom: 2rem;
 }
