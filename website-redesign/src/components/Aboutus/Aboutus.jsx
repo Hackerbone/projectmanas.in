@@ -9,9 +9,9 @@ export default function Aboutus() {
     //     <h1>What do we do?</h1>
     //   </div>
 
-    //   <div className="row ">
+    //   <div className="about-row ">
     //     <div className="about-desc">
-    //       <div className="row">
+    //       <div className="about-row">
     //         <h1 className="about-us-header">About Us</h1>
     //       </div>
     //       Project MANAS is the official AI and Robotics team of MAHE, Manipal
@@ -24,7 +24,7 @@ export default function Aboutus() {
     //     <div className="image1"></div>
     //   </div>
 
-    //   <div className="row-alt">
+    //   <div className="about-row-alt">
     //     <div className="about-desc">
     //       <h1 className="vision-header">Vision</h1>
     //       Project MANAS aims to inspire advanced research in Artificial
@@ -48,9 +48,9 @@ export default function Aboutus() {
         <div className="header-underline"></div>
       </div>
 
-      <div className="row ">
+      <div className="about-row">
         <div className="about-desc">
-          <div className="row">
+          <div className="about-row">
             <h1 className="about-us-header">Who are we?</h1>
           </div>
           Project MANAS is the official AI and Robotics team of MAHE, Manipal
@@ -60,14 +60,14 @@ export default function Aboutus() {
           among the top 13 participants in the Mahindra’s Rise Prize challenge.
           <br />
           <br />
-          <div className="row">
+          <div className="about-row">
             <h1 className="about-us-header-small">Vision</h1>
           </div>
           Project MANAS aims to inspire advanced research in Artificial
           Intelligence and oversee its implementation enabling automated systems
           to be made available to generous populous.
           <br />
-          <div className="row">
+          <div className="about-row">
             <h1 className="about-us-header-small">Mission</h1>
           </div>
           <div className="last">

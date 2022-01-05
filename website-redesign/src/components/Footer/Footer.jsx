@@ -13,8 +13,8 @@ export default function Footer() {
     <div className="footer">
       <div className="footer-container">
         <div>
-          <div className="row">
-            <div className="footer-col">
+          <div className="footer-row">
+            <div className="footer-coll">
               <h4>Get in Touch</h4>
               <ul>
                 <li>
@@ -34,14 +34,14 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-            <div className="footer-col">
+            <div className="footer-coll">
               <h4>Phone</h4>
               <ul>
                 <li>Yatharth Agarwal: +917975602230</li>
                 <li>Kallol Saha: +919606350096</li>
               </ul>
             </div>
-            <div className="footer-col">
+            <div className="footer-coll">
               <h4>Address</h4>
               <ul>
                 <li>Automobile Workshop,</li>
@@ -49,7 +49,7 @@ export default function Footer() {
                 <li>MIT, Manipal, Karnataka 576104</li>
               </ul>
             </div>
-            <div className="footer-col">
+            <div className="footer-coll">
               <h4>Connect</h4>
               <div className="social-links">
                 <a href="https://www.facebook.com/projectmanas">

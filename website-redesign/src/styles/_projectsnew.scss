@@ -36,7 +36,6 @@
 .module-border-wrap {
   width: 80%;
   padding: 1rem;
-
   position: relative;
   background: linear-gradient(#db5c39, #ff8b0f);
   padding: 3px;
@@ -57,5 +56,6 @@
 
   &:hover {
     transform: translateX(-10px) translateY(-10px);
+    cursor: pointer;
   }
 }

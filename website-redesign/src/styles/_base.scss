@@ -1,28 +1,27 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Mukta',
-        sans-serif;
-    scroll-behavior: smooth;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Mukta", sans-serif;
+  scroll-behavior: smooth;
 
-    /* width */
-    ::-webkit-scrollbar {
-        width: 4px;
-    }
+  /* width */
+  ::-webkit-scrollbar {
+    width: 4px;
+  }
 
-    /* Track */
-    ::-webkit-scrollbar-track {
-        background: $primary-black;
-    }
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: $primary-black;
+  }
 
-    /* Handle */
-    ::-webkit-scrollbar-thumb {
-        background: $primary-orange;
-    }
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $primary-orange;
+  }
 
-    /* Handle on hover */
-    ::-webkit-scrollbar-thumb:hover {
-        background: rgba($color: $primary-orange, $alpha: 1.0);
-    }
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba($color: $primary-orange, $alpha: 1);
+  }
 }

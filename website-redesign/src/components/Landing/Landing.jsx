@@ -29,8 +29,8 @@ export default function Landing() {
       1,
       10000
     );
-    camera.position.y = 100; //changes how far back you can see i.e the particles towards horizon
-    camera.position.z = 200; //This is how close or far the particles are seen
+    camera.position.y = 400; //changes how far back you can see i.e the particles towards horizon
+    camera.position.z = 300; //This is how close or far the particles are seen
 
     camera.rotation.x = 0.35;
 
@@ -71,7 +71,7 @@ export default function Landing() {
 
     renderer = new THREE.WebGLRenderer();
     renderer.setSize(window.innerWidth, window.innerHeight);
-    renderer.setClearColor(0x000000, 1);
+    renderer.setClearColor(0x071013, 1);
     mountRef.current.appendChild(renderer.domElement);
 
     var animate = function () {
