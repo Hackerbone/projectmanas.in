@@ -13,8 +13,8 @@ export default function Landing() {
     particle,
     count = 0;
 
-  var windowHalfX = window.innerWidth / 2;
-  var windowHalfY = window.innerHeight / 2;
+  // var windowHalfX = window.innerWidth / 2;
+  // var windowHalfY = window.innerHeight / 2;
   var SEPARATION = 40,
     AMOUNTX = 130,
     AMOUNTY = 35;
@@ -29,8 +29,8 @@ export default function Landing() {
       1,
       10000
     );
-    camera.position.y = 150; //changes how far back you can see i.e the particles towards horizon
-    camera.position.z = 300; //This is how close or far the particles are seen
+    camera.position.y = 100; //changes how far back you can see i.e the particles towards horizon
+    camera.position.z = 200; //This is how close or far the particles are seen
 
     camera.rotation.x = 0.35;
 
