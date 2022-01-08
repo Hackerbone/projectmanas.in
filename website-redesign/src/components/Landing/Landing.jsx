@@ -1,10 +1,10 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 import React from "react";
 import manasLogo from "../../assets/Logos/manas-with-border.png";
 import manasMotto from "../../assets/Logos/manas-motto.svg";
 import manasFull from "../../assets/Logos/manas-full-white.png";
 import { useEffect, useRef } from "react";
 import * as THREE from "three";
-import { Sprite } from "three";
 
 export default function Landing() {
   const mountRef = useRef(null);
@@ -19,7 +19,6 @@ export default function Landing() {
     AMOUNTX = 130,
     AMOUNTY = 35;
 
-  var container;
   var camera, scene, renderer;
 
   useEffect(() => {
@@ -30,14 +29,14 @@ export default function Landing() {
       10000
     );
     camera.position.y = 400; //changes how far back you can see i.e the particles towards horizon
-    camera.position.z = 300; //This is how close or far the particles are seen
+    camera.position.z = 200; //This is how close or far the particles are seen
 
     camera.rotation.x = 0.35;
 
     scene = new THREE.Scene();
+    // eslint-disable-next-line no-array-constructor
     particles = new Array();
 
-    var PI2 = Math.PI * 2;
     // var material = new THREE.SpriteMaterial({
     //   color: 0x939393, //changes color of particles
     //   program: (context) => {

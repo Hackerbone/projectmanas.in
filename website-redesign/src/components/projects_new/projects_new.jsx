@@ -116,7 +116,11 @@ export default function Projects_new() {
         </div>
 
         <div class="module-border-wrap">
-          <a href="https://projectmanas.in/solo" target="_blank">
+          <a
+            href="https://projectmanas.in/solo"
+            target="_blank"
+            rel="noreferrer"
+          >
             <div
               class="module"
               style={{ backgroundImage: `url(${solo})` }}

@@ -68,7 +68,7 @@ export default function Aboutus() {
           to be made available to generous populous.
           <br />
           <div className="about-row">
-            <h1 className="about-us-header-small">Mission</h1>
+            <h1 className="about-us-header-small mission">Mission</h1>
           </div>
           <div className="last">
             Our mission is to uphold the tradition of pushing the limits of
