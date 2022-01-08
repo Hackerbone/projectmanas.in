@@ -7,24 +7,30 @@ import illustration__woman_mobile from "../../assets/FAQ/images/illustration-wom
 
 const questionsAnswers = [
   {
-    question: "When do the Manas recruitments commence ?",
-    answer: " November-December",
+    question: "When do the Project MANAS' recruitments commence?",
+    answer:
+      "The recruitments are held every odd semester of the academic year.",
   },
   {
-    question: "What lorem ipsum?",
-    answer: "lorem ",
+    question: "Who are eligible for the recuitments?",
+    answer: "First and second year students only.",
   },
   {
-    question: "lorem ipsum?",
-    answer: "lorem ipsum",
+    question: "What are the different subsystems in Project MANAS?",
+    answer:
+      "Project MANAS' subsystems consists of AI, Sensing and Automation, Mechanical and Management.",
   },
   {
-    question: "lorem ipsum?",
-    answer: `lorem ipsum`,
+    question: "Are there any pre-requisites for the interviews?",
+    answer: "No pre-requisites are required for the interview.",
   },
   {
-    question: "lorem ipsum",
-    answer: `lorem ipsum.`,
+    question: "What is the taskphase?",
+    answer: `Once a candidate has cleared the interview round, they enter the taskphase where the individual learns the essential skills to make it to the team. Once completed the taskphase successfully, the individual officially becomes a part of the team.`,
+  },
+  {
+    question: "How does being in a student project affect academics?",
+    answer: `Handling academics along with student project work is manageable as far as one has the right time management skills.`,
   },
 ];
 
