@@ -27,7 +27,7 @@
   margin: auto;
   max-width: 900px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr 1fr;
   grid-gap: 1px;
   background-color: #4f4949;
@@ -98,7 +98,8 @@
 
 .grid-item p {
   color: #ffffff;
-  font-size: 2rem;
+  font-size: 1.5rem;
+  margin: auto;
 
   @media only screen and (max-width: 768px) {
     font-size: 0.9rem;

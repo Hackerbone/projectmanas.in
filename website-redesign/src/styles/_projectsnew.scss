@@ -45,15 +45,27 @@
 
 .module {
   background: #222;
-  height: 300px;
+  height: 350px;
   border: 2px solid transparent;
   border-image: linear-gradient(#db5c39, #ff8b0f);
   border-image-slice: 1;
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   color: white;
-  padding: 2rem;
   transition: all 0.3s ease-in-out;
+
+  .module-overlay {
+    height: 20%;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    font-size: 2rem;
+    position: relative;
+    transition: all 1s ease-in-out;
+    background-color: rgba(7, 16, 19, 0.7);
+    margin-top: 90%;
+  }
 
   &:hover {
     transform: translateX(-10px) translateY(-10px);

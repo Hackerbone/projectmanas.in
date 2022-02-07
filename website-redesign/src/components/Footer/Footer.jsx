@@ -22,16 +22,6 @@ export default function Footer() {
                     projectmanas.mit@gmail.com
                   </a>
                 </li>
-                <li>
-                  <a href="mailto:tech_head@projectmanas.in">
-                    tech_head@projectmanas.in
-                  </a>
-                </li>
-                <li>
-                  <a href="mailto:team_manager@projectmanas.in">
-                    team_manager@projectmanas.in
-                  </a>
-                </li>
               </ul>
             </div>
             <div className="footer-coll">

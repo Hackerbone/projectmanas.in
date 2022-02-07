@@ -96,7 +96,11 @@ export default function Projects_new() {
             onClick={showModal1}
             class="module"
             style={{ backgroundImage: `url(${adam})` }}
-          ></div>
+          >
+            <div class="module-overlay">
+              <p>ADAM</p>
+            </div>
+          </div>
         </div>
 
         <div class="module-border-wrap">
@@ -104,7 +108,11 @@ export default function Projects_new() {
             onClick={showModal2}
             class="module"
             style={{ backgroundImage: `url(${walle})` }}
-          ></div>
+          >
+            <div class="module-overlay">
+              <p>WALL-E</p>
+            </div>
+          </div>
         </div>
 
         <div class="module-border-wrap">
@@ -112,7 +120,11 @@ export default function Projects_new() {
             onClick={showModal3}
             class="module"
             style={{ backgroundImage: `url(${eve})` }}
-          ></div>
+          >
+            <div class="module-overlay">
+              <p>EVE</p>
+            </div>
+          </div>
         </div>
 
         <div class="module-border-wrap">
@@ -121,10 +133,11 @@ export default function Projects_new() {
             target="_blank"
             rel="noreferrer"
           >
-            <div
-              class="module"
-              style={{ backgroundImage: `url(${solo})` }}
-            ></div>
+            <div class="module" style={{ backgroundImage: `url(${solo})` }}>
+              <div class="module-overlay">
+                <p>SOLO</p>
+              </div>
+            </div>
           </a>
         </div>
       </div>

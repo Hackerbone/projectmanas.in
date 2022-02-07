@@ -15,7 +15,6 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Team() {
-  var Element = Scroll.Element;
   var scroller = Scroll.scroller;
 
   const [showText, setShowText] = useState({});
@@ -37,16 +36,16 @@ export default function Team() {
   };
 
   const VALUES = [
-    "2014-01-02",
-    "2015-01-02",
-    "2016-01-02",
-    "2017-01-01",
-    "2018-01-01",
-    "2019-01-01",
     "2020-01-01",
+    "2019-01-01",
+    "2018-01-01",
+    "2017-01-01",
+    "2016-01-02",
+    "2015-01-02",
+    "2014-01-02",
   ];
 
-  const [year, setYear] = useState(2014);
+  const [year, setYear] = useState(2020);
 
   const linePadding = 120;
 
@@ -58,15 +57,13 @@ export default function Team() {
         duration: 1500,
       });
     } else {
-      setYear(2014);
+      setYear(2020);
     }
-  }, []);
+  }, [params.year, scroller]);
 
   return (
     <div className="teampage-container">
-      <div className="teampage-header-container">
-        <h1>Project Manas Team 2021</h1>
-      </div>
+      <div className="teampage-header-container"></div>
       <div className="team">
         <span className="">
           Meet the <b>Team</b>{" "}
@@ -200,7 +197,7 @@ export default function Team() {
             styles={{ outline: "#fa8a13" }}
             linePadding={linePadding}
             indexClick={(index) => {
-              setYear(2014 + index);
+              setYear(2020 - index);
               setVal({ value: index, previous: val.value });
             }}
             getLabel={(date) => {
