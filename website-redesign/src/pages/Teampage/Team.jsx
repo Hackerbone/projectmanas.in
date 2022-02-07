@@ -191,6 +191,7 @@ export default function Team() {
         <h1>
           Our <span>Alumni</span>
         </h1>
+
         <div className="timeline">
           <Horizontaltimeline
             index={val.value}
