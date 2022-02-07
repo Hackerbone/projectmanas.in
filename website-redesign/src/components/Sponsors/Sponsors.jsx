@@ -17,8 +17,11 @@ export default function Sponsors() {
             />
           </div>
         ))}
+
         <div className="grid-item">
-          <p>Sponsor Us {">"}</p>
+          <a href="/#contact">
+            <p>Sponsor Us {">"}</p>
+          </a>
         </div>
       </div>
     </div>
