@@ -22,6 +22,10 @@
     align-items: center;
     color: #fff;
 
+    @media only screen and (max-width: 768px) {
+      height: 20vh;
+    }
+
     h1 {
       font-size: 3.6rem;
       text-align: center;
@@ -207,6 +211,9 @@
   flex-wrap: wrap;
   padding: 2rem;
   justify-content: center;
+  @media only screen and (max-width: 768px) {
+    padding: 2rem 0rem;
+  }
 
   .content {
     .alumni-member {
@@ -335,7 +342,23 @@
   height: 100px;
   margin: 0 auto;
   @media only screen and (max-width: 768px) {
-    width: 90%;
+    display: none;
+  }
+}
+
+.timeline-mobile {
+  display: none;
+  .disabled {
+    color: #c1c1c1;
+  }
+  @media only screen and (max-width: 768px) {
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 2rem;
+    color: $primary-orange;
   }
 }
 

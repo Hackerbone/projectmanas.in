@@ -5,9 +5,13 @@ import mentors from "../../assets/Data/mentors";
 import { useParams } from "react-router-dom";
 import Horizontaltimeline from "react-horizontal-timeline";
 import * as Scroll from "react-scroll";
-
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+
+import {
+  faAngleLeft,
+  faAngleRight,
+  faEnvelope,
+} from "@fortawesome/free-solid-svg-icons";
 import {
   faFacebookF,
   faLinkedinIn,
@@ -46,6 +50,7 @@ export default function Team() {
   ];
 
   const [year, setYear] = useState(2020);
+  const [mobileYear, setMobileYear] = useState(2020);
 
   const linePadding = 120;
 
@@ -206,6 +211,26 @@ export default function Team() {
             }}
             values={VALUES}
           />
+        </div>
+
+        <div className="timeline-mobile">
+          <div className={`${year < 2020 ? "active" : "disabled"}`}>
+            <FontAwesomeIcon
+              icon={faAngleLeft}
+              onClick={() => {
+                if (year < 2020) setYear(year + 1);
+              }}
+            />
+          </div>
+          {year}
+          <div className={`${year > 2014 ? "active" : "disabled"}`}>
+            <FontAwesomeIcon
+              icon={faAngleRight}
+              onClick={() => {
+                if (year > 2014) setYear(year - 1);
+              }}
+            />
+          </div>
         </div>
 
         <div className="alum-wrapper">
