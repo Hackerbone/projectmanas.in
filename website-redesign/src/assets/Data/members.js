@@ -7,7 +7,7 @@ const members = [
     facebook: null,
     mail: "mailto:yatharthrpi@gmail.com",
     linkedin: "https://www.linkedin.com/in/yatharth-agarwal-5123911a5",
-    github: null
+    github: null,
   },
   {
     name: "Kallol Saha",
@@ -17,7 +17,7 @@ const members = [
     facebook: null,
     mail: "mailto:kallolsaha1752001@gmail.com",
     linkedin: "https://www.linkedin.com/in/kallol-saha-45b5a41a3/",
-    github: "https://github.com/FailedMesh"
+    github: "https://github.com/FailedMesh",
   },
   {
     name: "Anshumaan Singh",
@@ -27,7 +27,7 @@ const members = [
     facebook: null,
     mail: "mailto:anshumaan567@gmail.com",
     linkedin: "https://www.linkedin.com/in/anshumaan-singh-ab1ba91b3/",
-    github: "https://github.com/Anshu-man567"
+    github: "https://github.com/Anshu-man567",
   },
   {
     name: "Raghav Thakar",
@@ -37,7 +37,7 @@ const members = [
     facebook: null,
     mail: "mailto:raghavthakar12@gmail.com",
     linkedin: "https://www.linkedin.com/in/raghavthakar/",
-    github: "https://github.com/raghavthakar"
+    github: "https://github.com/raghavthakar",
   },
   {
     name: "Ashwin Disa",
@@ -47,7 +47,7 @@ const members = [
     facebook: "https://m.facebook.com/ashwin.disa",
     mail: "mailto:ashwin.disa@gmail.com",
     linkedin: "https://in.linkedin.com/in/ashwin-disa-725827180",
-    github: null
+    github: null,
   },
   {
     name: "Naman Joshi",
@@ -57,7 +57,7 @@ const members = [
     facebook: null,
     mail: "mailto:joshinaman14@gmail.com",
     linkedin: "https://www.linkedin.com/in/naman-joshi-476a07195/",
-    github: "https://github.com/JoshiNaman"
+    github: "https://github.com/JoshiNaman",
   },
   {
     name: "Aryan Roy",
@@ -67,7 +67,7 @@ const members = [
     facebook: null,
     mail: "mailto:aryanroy5678@gmail.com",
     linkedin: "https://www.linkedin.com/in/aryan-roy-914458189",
-    github: null
+    github: null,
   },
   {
     name: "Shivansh Bakshi",
@@ -77,7 +77,7 @@ const members = [
     facebook: "https://www.facebook.com/shivansh.baks",
     mail: "mailto:shivansh.bakshi@gmail.com",
     linkedin: "https://www.linkedin.com/in/shivansh-bakshi/",
-    github: "https://github.com/Shivansh-Bakshi"
+    github: "https://github.com/Shivansh-Bakshi",
   },
   {
     name: "Aditya Nirmale",
@@ -87,7 +87,7 @@ const members = [
     facebook: null,
     mail: "mailto:adityanirmaleofficial@gmail.com",
     linkedin: "https://www.linkedin.com/in/aditya-nirmale/",
-    github: null
+    github: null,
   },
   {
     name: "Akshat Pandey",
@@ -97,7 +97,7 @@ const members = [
     facebook: "https://www.facebook.com/akshat.pandey.35175633",
     mail: "mailto:akshat.darkmatter@gmail.com",
     linkedin: "https://www.linkedin.com/in/akshat-pandey-011b811a2/",
-    github: "https://github.com/akshatowl"
+    github: "https://github.com/akshatowl",
   },
   {
     name: "Twinkle Goyal",
@@ -107,7 +107,7 @@ const members = [
     facebook: null,
     mail: "mailto:manigoyal08@gmail.com",
     linkedin: "https://www.linkedin.com/in/twinkle-goyal-1236ba154/",
-    github: null
+    github: null,
   },
   {
     name: "Srujan Kulkarni",
@@ -117,7 +117,7 @@ const members = [
     facebook: "https://www.facebook.com/srujan.kulkarni.7/",
     mail: "mailto:kulkarnisrujan77@gmail.com",
     linkedin: "http://www.linkedin.com/in/srujan-kulkarni-3378351b2",
-    github: null
+    github: null,
   },
   {
     name: "Sridurga Krithivasan",
@@ -127,7 +127,7 @@ const members = [
     facebook: "https://www.facebook.com/sridurga.krithivasan",
     mail: "mailto:sridurga.krithi@gmail.com",
     linkedin: "http://linkedin.com/in/sridurga-krithivasan-b49075190",
-    github: null
+    github: null,
   },
   {
     name: "Sathvik N K",
@@ -137,7 +137,7 @@ const members = [
     facebook: "https://www.facebook.com/sathvik.nk.1",
     mail: "mailto:sathviknk14@gmail.com",
     linkedin: "https://www.linkedin.com/in/sathvik-nk-4956311a4",
-    github: null
+    github: null,
   },
   {
     name: "Atula Tejaswi",
@@ -147,7 +147,7 @@ const members = [
     facebook: null,
     mail: "mailto:atulatejaswi@gmail.com",
     linkedin: "https://www.linkedin.com/in/atula-tejaswi-neerkaje-4b989b157",
-    github: "https://github.com/atutej"
+    github: "https://github.com/atutej",
   },
   {
     name: "Ishika Jaiswal",
@@ -157,7 +157,7 @@ const members = [
     facebook: null,
     mail: "mailto:jaiswalishikacrystal@gmail.com",
     linkedin: "https://www.linkedin.com/in/ishika-jaiswal-720b10193",
-    github: "https://github.com/Ishikajaiswal"
+    github: "https://github.com/Ishikajaiswal",
   },
   {
     name: "Shruti Jain",
@@ -167,7 +167,7 @@ const members = [
     facebook: null,
     mail: "mailto:shrutipraveenjain@gmail.com",
     linkedin: "https://www.linkedin.com/in/shruti-jain-81a7581b4/",
-    github: null
+    github: null,
   },
   {
     name: "Aaron Jomy",
@@ -177,7 +177,7 @@ const members = [
     facebook: null,
     mail: "mailto:aaronjomyjoseph@gmail.com",
     linkedin: "https://www.linkedin.com/in/aaron-jomy-2312a1201",
-    github: "https://github.com/maximusron"
+    github: "https://github.com/maximusron",
   },
   {
     name: "Sai Anish Malla",
@@ -187,7 +187,7 @@ const members = [
     facebook: null,
     mail: "mailto:mallasaianish@gmail.com",
     linkedin: null,
-    github: null
+    github: null,
   },
   {
     name: "Ayush Kumar",
@@ -197,7 +197,7 @@ const members = [
     facebook: null,
     mail: "mailto:ayush_7102@yahoo.in",
     linkedin: "https://www.linkedin.com/in/ayushk7102/",
-    github: "https://github.com/ayushk7102"
+    github: "https://github.com/ayushk7102",
   },
   {
     name: "Kaustav Sarkar",
@@ -207,7 +207,7 @@ const members = [
     facebook: null,
     mail: "mailto:kaustavsarkar2001@gmail.com",
     linkedin: "https://www.linkedin.com/in/kaustavsarkar/",
-    github: "https://github.com/Kaustav-Sarkar"
+    github: "https://github.com/Kaustav-Sarkar",
   },
   {
     name: "Neetigya Poddar",
@@ -217,7 +217,7 @@ const members = [
     facebook: null,
     mail: "mailto:neetigyapoddar1@gmail.com",
     linkedin: "https://www.linkedin.com/in/neetigya-poddar-a022811b6/",
-    github: "https://github.com/NeetigyaPod"
+    github: "https://github.com/NeetigyaPod",
   },
   {
     name: "Shrey Bihani",
@@ -227,18 +227,18 @@ const members = [
     facebook: null,
     mail: "mailto:shreybihani13@gmail.com",
     linkedin: null,
-    github: null
+    github: null,
   },
-  {
-    name: "Prakhar Goel",
-    nickname: "Prakhs01",
-    designation: "S&A Member",
-    image: "https://i.imgur.com/HEhW5Pn.png",
-    facebook: "https://www.facebook.com/prakhar.goel.01",
-    mail: "mailto:prakhs00@gmail.com",
-    linkedin: "https://www.linkedin.com/in/Prakhar-Goel-4616501a5",
-    github: "https://github.com/prakharg01"
-  },
+  // {
+  //   name: "Prakhar Goel",
+  //   nickname: "Prakhs01",
+  //   designation: "S&A Member",
+  //   image: "https://i.imgur.com/HEhW5Pn.png",
+  //   facebook: "https://www.facebook.com/prakhar.goel.01",
+  //   mail: "mailto:prakhs00@gmail.com",
+  //   linkedin: "https://www.linkedin.com/in/Prakhar-Goel-4616501a5",
+  //   github: "https://github.com/prakharg01"
+  // },
   {
     name: "Aditya Choubey",
     nickname: "Dulo Peepo",
@@ -247,7 +247,7 @@ const members = [
     facebook: null,
     mail: "mailto:adityachoubey2512@gmail.com",
     linkedin: "https://www.linkedin.com/in/aditya-choubey-20bb9a1b3",
-    github: "https://github.com/aditya-c2512"
+    github: "https://github.com/aditya-c2512",
   },
   {
     name: "Darshan K S",
@@ -257,18 +257,18 @@ const members = [
     facebook: null,
     mail: "mailto:darshanks.work@gmail.com",
     linkedin: "https://www.linkedin.com/in/darshan-k-s/",
-    github: "https://github.com/darshan-k-s"
+    github: "https://github.com/darshan-k-s",
   },
-  {
-    name: "Dhruva Goyal",
-    nickname: "shero4",
-    designation: "S&A Member",
-    image: "https://i.imgur.com/ptoZoBm.jpeg",
-    facebook: null,
-    mail: "mailto:goyal.dhruva@gmail.com",
-    linkedin: "https://www.linkedin.com/in/dhruvagoyal",
-    github: "https://github.com/shero4/"
-  },
+  // {
+  //   name: "Dhruva Goyal",
+  //   nickname: "shero4",
+  //   designation: "S&A Member",
+  //   image: "https://i.imgur.com/ptoZoBm.jpeg",
+  //   facebook: null,
+  //   mail: "mailto:goyal.dhruva@gmail.com",
+  //   linkedin: "https://www.linkedin.com/in/dhruvagoyal",
+  //   github: "https://github.com/shero4/"
+  // },
   {
     name: "Nilabha Das",
     nickname: "Nilabha Das",
@@ -277,18 +277,18 @@ const members = [
     facebook: null,
     mail: "mailto:nilabha.das@learner.manipal.edu",
     linkedin: "https://www.linkedin.com/in/nilabhadas314",
-    github: "https://github.com/N3dys"
+    github: "https://github.com/N3dys",
   },
-  {
-    name: "S Sitaraman",
-    nickname: "Hackerb0ne",
-    designation: "S&A Member",
-    image: "https://i.imgur.com/hQC6ZpB.jpeg",
-    facebook: null,
-    mail: "mailto:sitaraman.raghav.india@gmail.com",
-    linkedin: "https://www.linkedin.com/in/sitaraman-s-b4647375",
-    github: "https://github.com/hackerbone"
-  },
+  // {
+  //   name: "S Sitaraman",
+  //   nickname: "Hackerb0ne",
+  //   designation: "S&A Member",
+  //   image: "https://i.imgur.com/hQC6ZpB.jpeg",
+  //   facebook: null,
+  //   mail: "mailto:sitaraman.raghav.india@gmail.com",
+  //   linkedin: "https://www.linkedin.com/in/sitaraman-s-b4647375",
+  //   github: "https://github.com/hackerbone"
+  // },
   {
     name: "Tushar Upadhyay",
     nickname: "Invok3",
@@ -297,7 +297,7 @@ const members = [
     facebook: null,
     mail: "mailto:tushar.u110@gmail.com",
     linkedin: "https://www.linkedin.com/in/tushar-upadhyay-wiz/",
-    github: "https://github.com/tushar-wiz"
+    github: "https://github.com/tushar-wiz",
   },
   {
     name: "Y Vishal Rao",
@@ -307,18 +307,18 @@ const members = [
     facebook: null,
     mail: "mailto:yellurvishalrao@gmail.com",
     linkedin: null,
-    github: null
+    github: null,
   },
-  {
-    name: "Bhanu Prasad A J",
-    nickname: "RedStreak18",
-    designation: "Mechanical Member",
-    image: "https://i.imgur.com/HsqRVB3.jpeg",
-    facebook: null,
-    mail: "mailto:ajbbhanu@gmail.com",
-    linkedin: "https://www.linkedin.com/in/bhanu-prasad-a-j-79591a1b1",
-    github: null
-  },
+  // {
+  //   name: "Bhanu Prasad A J",
+  //   nickname: "RedStreak18",
+  //   designation: "Mechanical Member",
+  //   image: "https://i.imgur.com/HsqRVB3.jpeg",
+  //   facebook: null,
+  //   mail: "mailto:ajbbhanu@gmail.com",
+  //   linkedin: "https://www.linkedin.com/in/bhanu-prasad-a-j-79591a1b1",
+  //   github: null
+  // },
   {
     name: "Tanaya Gupte",
     nickname: "Sin(aya)/Cos(aya)",
@@ -327,7 +327,7 @@ const members = [
     facebook: null,
     mail: "mailto:tanaya1707@gmail.com",
     linkedin: "https://www.linkedin.com/in/tanaya-gupte-4313931a5/",
-    github: "https://github.com/tanaya1707"
+    github: "https://github.com/tanaya1707",
   },
   {
     name: "Aditya Balaji",
@@ -337,7 +337,7 @@ const members = [
     facebook: null,
     mail: "mailto:adityabalaji3@gmail.com",
     linkedin: null,
-    github: null
+    github: null,
   },
   {
     name: "Amogh Rao",
@@ -347,7 +347,7 @@ const members = [
     facebook: null,
     mail: "mailto:amogh1515@gmail.com",
     linkedin: "https://www.linkedin.com/in/amogh-vivekananda-rao-62721b19b",
-    github: null
+    github: null,
   },
   {
     name: "Divyam Shah",
@@ -357,18 +357,18 @@ const members = [
     facebook: null,
     mail: "mailto:yamdiv.02@gmail.com",
     linkedin: "https://www.linkedin.com/in/divyam-shah-61bb8a219",
-    github: null
+    github: null,
   },
-  {
-    name: "Mukta Kulkarni",
-    nickname: "Chumma",
-    designation: "Mechanical Member",
-    image: "https://i.imgur.com/PZXVpcQ.jpeg",
-    facebook: null,
-    mail: "mailto:muktakulkarnimk25@gmail.com",
-    linkedin: null,
-    github: null
-  },
+  // {
+  //   name: "Mukta Kulkarni",
+  //   nickname: "Chumma",
+  //   designation: "Mechanical Member",
+  //   image: "https://i.imgur.com/PZXVpcQ.jpeg",
+  //   facebook: null,
+  //   mail: "mailto:muktakulkarnimk25@gmail.com",
+  //   linkedin: null,
+  //   github: null
+  // },
   {
     name: "Shreyas Bhat",
     nickname: "＼(ﾟ ｰﾟ＼)",
@@ -377,7 +377,7 @@ const members = [
     facebook: null,
     mail: "mailto:shreyasbhat17@gmail.com",
     linkedin: null,
-    github: "https://github.com/Shreyas-gits"
+    github: "https://github.com/Shreyas-gits",
   },
   {
     name: "Deep Gupta",
@@ -387,7 +387,7 @@ const members = [
     facebook: null,
     mail: "mailto:deepgupta2508@gmail.com",
     linkedin: "https://www.linkedin.com/in/deep-gupta-35b927204/",
-    github: "https://github.com/deep-25"
+    github: "https://github.com/deep-25",
   },
   {
     name: "Diya Dhabade",
@@ -397,7 +397,7 @@ const members = [
     facebook: null,
     mail: "mailto:diyaddhabade@gmail.com",
     linkedin: "https://www.linkedin.com/in/diya-dhabade-7267b6210/",
-    github: "https://github.com/DiyaDhabade"
+    github: "https://github.com/DiyaDhabade",
   },
   {
     name: "Jyothsna Ashok",
@@ -407,8 +407,8 @@ const members = [
     facebook: null,
     mail: "mailto:jyothsna1809@gmail.com",
     linkedin: "https://www.linkedin.com/in/jyothsna-ashok/",
-    github: "https://github.com/JyothsnaAshok"
-  }
-]
+    github: "https://github.com/JyothsnaAshok",
+  },
+];
 
 export default members;

@@ -3,6 +3,7 @@ import React from "react";
 import manasLogo from "../../assets/Logos/manas-with-border.png";
 import manasMotto from "../../assets/Logos/manas-motto.svg";
 import manasFull from "../../assets/Logos/manas-full-white.png";
+
 import { useEffect, useRef } from "react";
 import * as THREE from "three";
 

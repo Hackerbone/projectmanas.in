@@ -17,12 +17,27 @@
     justify-content: space-between;
   }
 
+  .manipal-logos {
+    display: flex;
+    width: 100%;
+    transition: all linear 5s;
+    img {
+      height: 40px;
+      width: auto;
+      margin-right: 1rem;
+    }
+  }
+  .manas-logo-hidden {
+    display: none;
+    transition: all linear 5s;
+  }
   .manas-logo {
     background-image: url("../assets/Logos/manas-with-border.png");
     width: 100%;
     height: 50px;
     background-size: contain;
     background-repeat: no-repeat;
+    transition: all linear 5s;
 
     @media only screen and (max-width: 768px) {
       display: flex;

@@ -50,7 +50,6 @@ export default function Team() {
   ];
 
   const [year, setYear] = useState(2020);
-  const [mobileYear, setMobileYear] = useState(2020);
 
   const linePadding = 120;
 
